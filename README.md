@@ -1,2 +1,2 @@
-jackrmcdermott2.github.io
+jackrmcdermott.github.io
 ========================
