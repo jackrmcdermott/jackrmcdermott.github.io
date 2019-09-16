@@ -1,2 +1,0 @@
-jackrmcdermott.github.io
-========================

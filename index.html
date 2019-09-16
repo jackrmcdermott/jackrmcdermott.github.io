@@ -1,31 +1,154 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<title>Jack McDermott</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
-	  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Lora|PT+Serif" rel="stylesheet">
-	<link rel="icon" href="http://jackmcdermott.me/img/icon.png" type="image/png">
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>Jack McDermott</title>  
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="Page description" name="description">
+  <meta name="google" content="notranslate" />
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  <link href="./assets/icon.png" rel="icon">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    $(function(){
+      $('#header').load('header.html');
+    });
+  </script>
+
+  <!-- Stylesheets -->
+  <link href="./main.css" rel="stylesheet"></head>
+  <link href="./style.css" rel="stylesheet"></head>
+
 </head>
 
 <body>
-	<div id="main-content">
-		<div id="name-card">
-			<div id="headshot-box"><img id="headshot" src="img/jack.png"></div>
-			<h1>Jack McDermott</h1>
-			<h3>Studying - <a class="hover-link" href="https://darden.virginia.edu">UVA Darden</a> (MBA/M.Ed)</br>
-			<h3>Previously:</br>
-			Product Marketing - <a class="hover-link" href="https://panoramaed.com">Panorama Education</a></br> Founder - <a class="hover-link" href="https://speech4good.com">Speech4Good</a></br> Alum - Tufts University</h3>
-			<div id="social-icons">
-				<a href="https://twitter.com/jackrmcdermott"><img src="img/icons/twitter.png"></a>
-				<a href="https://linkedin.com/in/jackrmcdermott"><img src="img/icons/linkedin.png"></a>
-				<a href="https://medium.com/@jackrmcdermott"><img src="img/icons/medium.png"></a>
-				<a href="https://blog.jackmcdermott.me"><img src="img/icons/tumblr.png"></a>
-			</div><!-- end social-icons -->
-		</div><!-- end name-card -->
-		
-	</div><!-- end main-content -->
-</body>
+
+<!-- Reusable Header -->
+<div id="header"></div>
+
+<main class="" id="main-collapse">
+
+<!-- Add your site or app content here -->
+ 
+<div class="hero-full-wrapper">
+  <p class="mobile-welcome"><strong>Hello, I'm Jack McDermott.</strong></br> I work with teams to build better software products and companies.</p>
+  <div class="grid">
+  <div class="gutter-sizer"></div>
+    <div class="grid-sizer"></div>
+    
+
+     <div class="grid-item">
+      <img class="img-responsive grid-img" alt="Panorama Education" src="./assets/images/23.jpg">
+      <a href="/panorama" class="project-description">
+        <div class="project-text-holder">
+          <div class="project-text-inner">
+            <h3>Panorama Education</h3>
+            <p>Led product marketing at edtech company that supports 9+ million students each year</p>
+            <p class="more-btn">Read more &rarr;</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+
+    <div class="grid-item">
+      <img class="img-responsive" alt="" src="./assets/images/1.jpg">
+      <a href="/" class="project-description">
+        <div class="project-text-holder">
+          <div class="project-text-inner">
+            <h3>Speech4Good</h3>
+            <p>Co-founded a company to develop mobile speech therapy apps for people with speech disorders</p>
+            <p class="more-btn">Read more &rarr;</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+  <div class="grid-item">
+      <img class="img-responsive" alt="" src="./assets/images/15.jpg">
+      <a href="/" class="project-description">
+        <div class="project-text-holder">
+          <div class="project-text-inner">
+            <h3>Digital + Political Tools</h3>
+            <p>Created a variety of digital tools to reach voters in progressive political campaigns</p>
+            <p class="more-btn">Read more &rarr;</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="grid-item">
+      <img class="img-responsive" alt="" src="./assets/images/4.jpg">
+      <a href="/" class="project-description">
+        <div class="project-text-holder">
+          <div class="project-text-inner">
+            <h3>Fluently</h3>
+            <p>Designed an app that analyzes real-time speech patterns to identify moments of stuttering</p>
+            <p class="more-btn">Read more &rarr;</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+
+    <div class="grid-item">
+      <img class="img-responsive" alt="" src="./assets/images/gtky.jpg">
+      <a href="/" class="project-description">
+        <div class="project-text-holder">
+          <div class="project-text-inner">
+            <h3>Get to Know You Survey</h3>
+            <p>Designed an online survey tool that helps students and teachers build better relationships</p>
+            <p class="more-btn">Read more &rarr;</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+  </div>
+</div>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+     masonryBuild();
+  });
+</script>
+
+</main>
+
+<script>
+document.addEventListener("DOMContentLoaded", function (event) {
+  navbarToggleSidebar();
+  navActivePage();
+});
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+
+  $('.welcome').addClass('active');
+});
+</script>
+
+<script>
+  $(function(){
+    var current = location.pathname;
+    $('#nav li a').each(function(){
+        var $this = $(this);
+        // if the current path is like this link, make it active
+        if($this.attr('href').indexOf(current) !== -1){
+            $this.addClass('active');
+        }
+    })
+})
+</script>
+
+<script type="text/javascript" src="./main.85741bff.js"></script></body>
+
 </html>
