@@ -116,7 +116,8 @@ h4.title {
 
 span.subtitle {
   color: #61748c;
-  font-size: 1.15em; }
+  font-size: 1.15em;
+  line-height: 1.2em; }
 
 h5.date {
   font-size: 0.8em;
