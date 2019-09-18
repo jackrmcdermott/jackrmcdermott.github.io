@@ -142,21 +142,21 @@ p.mobile-welcome {
 // Projects 
 
 main.projects {
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+  height: 100%;
 
-	.row.header {
-		text-align: center;
-		margin-top: 30px;
+	@media (min-width: 768px) {
+    	margin-left: 240px; 
 	}
+	@media (min-width: 992px) {
+    	padding: 30px; 
+    }
 
-	h1 {
-		color: $blue;
-		font-size: 2.2em;
-		font-family: 'Cabin';
-		font-variant: small-caps;
-	}
 
 	section.main {
-		padding: 40px 0px;
+		padding: 20px 0px;
 	}
 
 	a {
@@ -186,9 +186,13 @@ main.projects {
 
 h2.header {
 	margin-top: 20px;
-	font-size: 1.9em;
+	font-size: 2.2em;
 	font-weight: bold;
-	padding-left: 32px;
+	padding-left: 0px;
+
+	&.writing {
+		padding-left: 32px;
+	}
 }
 
 div.writing-post {

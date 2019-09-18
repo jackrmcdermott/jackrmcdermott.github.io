@@ -99,17 +99,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/assets/images/c.jpg": {
-		"ft": 16384,
-		"iS": 44107,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/images/c.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/assets/images/gtky.jpg": {
 		"ft": 16384,
 		"iS": 276350,
@@ -121,12 +110,89 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/assets/images/shelf.jpg": {
+	"/assets/images/projects/c.jpg": {
+		"ft": 16384,
+		"iS": 44107,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/projects/c.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/projects/dash.jpg": {
+		"ft": 16384,
+		"iS": 143196,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/projects/dash.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/projects/driver.jpg": {
+		"ft": 16384,
+		"iS": 129377,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/projects/driver.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/projects/green.jpg": {
+		"ft": 16384,
+		"iS": 167957,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/projects/green.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/assets/images/projects/red.jpg": {
+		"ft": 16384,
+		"iS": 164716,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/projects/red.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/assets/images/projects/s4g.jpg": {
+		"ft": 16384,
+		"iS": 254273,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/projects/s4g.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/projects/shelf.jpg": {
 		"ft": 16384,
 		"iS": 189276,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/images/shelf.jpg",
+		"oAP": "/assets/images/projects/shelf.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/projects/vet.jpg": {
+		"ft": 16384,
+		"iS": 366937,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/projects/vet.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
