@@ -99,12 +99,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/assets/images/44.jpg": {
+	"/assets/images/c.jpg": {
 		"ft": 16384,
-		"iS": 244223,
+		"iS": 44107,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/images/44.jpg",
+		"oAP": "/assets/images/c.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -116,6 +116,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/images/gtky.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/shelf.jpg": {
+		"ft": 16384,
+		"iS": 189276,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/shelf.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -476,57 +487,13 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/panorama/blur.jpg": {
-		"ft": 16384,
-		"iS": 13859869,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/panorama/blur.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/panorama/index.html": {
+	"/projects/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/panorama/index.html",
+		"oAP": "/projects/index.html",
 		"oF": 0
-		},
-	"/panorama/logo.png": {
-		"ft": 32768,
-		"iS": 200481,
-		"oA": 0,
-		"oAP": "/panorama/logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/panorama/shelf.jpg": {
-		"ft": 16384,
-		"iS": 1569271,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/panorama/shelf.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/panorama/team.jpg": {
-		"ft": 16384,
-		"iS": 928574,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/panorama/team.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
 		},
 	"/style.css": {
 		"aP": 1,
