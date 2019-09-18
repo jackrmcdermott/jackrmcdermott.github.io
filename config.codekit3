@@ -134,7 +134,7 @@
 		},
 	"/assets/images/projects/driver.jpg": {
 		"ft": 16384,
-		"iS": 129377,
+		"iS": 130336,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/images/projects/driver.jpg",
@@ -182,17 +182,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/images/projects/shelf.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/images/projects/vet.jpg": {
-		"ft": 16384,
-		"iS": 366937,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/images/projects/vet.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

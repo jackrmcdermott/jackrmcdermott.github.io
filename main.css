@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Cabin:400,600,700|Source+Sans+Pro:300,400,700|Lora:400,400i,700,700i&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,600,700|Source+Sans+Pro:300,400,700|Open+Sans:400,400i,700,700i&display=swap);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 body {
   color: #1a1b26; }
@@ -122,7 +122,7 @@ main.projects {
   main.projects p.paragraph {
     font-size: 1.3em;
     line-height: 1.7em;
-    font-family: 'Source Sans Pro';
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
     font-weight: 400;
     margin: 30px 0px 80px; }
 
@@ -163,34 +163,12 @@ h5.date {
   text-transform: uppercase;
   color: #61748c;
   opacity: 0.6;
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   margin-top: 5px; }
 
 a.active {
   color: #3585f0;
   font-weight: bold; }
-
-main.project {
-  padding: 30px 80px; }
-  main.project h1 {
-    font-size: 2.0em; }
-  main.project p.intro {
-    font-size: 1.2em;
-    line-height: 1.6em;
-    color: #61748c; }
-  main.project p.paragraph {
-    font-family: "Lora";
-    color: #1a1b26;
-    font-size: 1.2em;
-    margin: 20px 0px; }
-  main.project span.caps {
-    font-size: 2.5em;
-    color: #3585f0;
-    font-weight: bold;
-    line-height: 0.5em; }
-
-img.project-img {
-  padding: 10px 0px; }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 120px) and (max-device-width: 680px) {
@@ -453,7 +431,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.78;
   color: #555;
@@ -550,7 +528,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Cabin, Helvetica, Arial, sans-serif;
+  font-family: "Cabin", Helvetica, Arial, sans-serif;
   font-weight: 700;
   line-height: 1.1;
   color: #000; }
@@ -4753,7 +4731,7 @@ main {
 
 .site-brand {
   color: #000;
-  font-family: Cabin, Helvetica, Arial, sans-serif;
+  font-family: "Cabin", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
   display: block;
