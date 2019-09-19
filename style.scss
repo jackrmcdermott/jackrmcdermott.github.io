@@ -98,8 +98,15 @@ p.mobile-welcome {
 
 // Project Tiles
 
+.grid-item:hover {
+	opacity: 0.85;
+	-webkit-transition: all .2s ease-in-out;
+  	-o-transition: all .2s ease-in-out;
+  	transition: all .2s ease-in-out;
+}
+
+
 .grid-item .project-description {
-	background: rgba(255, 255, 255, 0.8);
 	text-align: center;
 	margin: 3%;
 	width: 94%;
@@ -132,13 +139,7 @@ p.mobile-welcome {
 	}
 }
 
-.down-arrow {
-	color: $blue;
-	text-align: center;
-	font-size: 1.5em;
-	font-weight: bold;
-	margin-top: 20px;
-}
+
 
 
 // Projects 
