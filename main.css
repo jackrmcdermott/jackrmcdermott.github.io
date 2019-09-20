@@ -42,6 +42,7 @@ p.sidebar-entry {
   font-weight: 600;
   letter-spacing: 0.03em;
   margin-top: 20px;
+  opacity: 0.7;
   text-transform: uppercase;
   color: #61748c; }
 
@@ -108,7 +109,7 @@ main.projects {
     main.projects {
       padding: 30px; } }
   main.projects section.main {
-    padding: 20px 0px; }
+    padding: 30px 0px; }
   main.projects a {
     border-bottom: 3px solid #accdf9;
     -webkit-transition: all .15s ease-in-out;
@@ -117,12 +118,22 @@ main.projects {
     main.projects a:hover {
       border-bottom: 3px solid #3585f0;
       color: #1d77ee; }
+  main.projects .project-section {
+    margin: 0px 0px; }
+  main.projects img {
+    padding: 15px; }
+  main.projects h2.project {
+    color: #3585f0;
+    margin-bottom: 30px;
+    font-size: 1.6em; }
+  main.projects .text {
+    margin: 30px 0px 50px; }
   main.projects p.paragraph {
     font-size: 1.3em;
     line-height: 1.7em;
     font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
     font-weight: 400;
-    margin: 30px 0px 80px; }
+    margin: 10px 0px 20px; }
 
 h2.header {
   margin-top: 20px;
@@ -131,6 +142,8 @@ h2.header {
   padding-left: 0px; }
   h2.header.writing {
     padding-left: 32px; }
+  h2.header.projects {
+    padding-left: 10px; }
 
 div.writing-post {
   margin: 0px 0px;

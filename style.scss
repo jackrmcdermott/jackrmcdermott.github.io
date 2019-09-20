@@ -68,6 +68,7 @@ p.sidebar-entry {
 	font-weight: 600;
 	letter-spacing: 0.03em;
 	margin-top: 20px;
+	opacity: 0.7;
 	text-transform: uppercase;
 	color: $gray;
 }
@@ -141,7 +142,6 @@ p.mobile-welcome {
 
 
 
-
 // Projects 
 
 main.projects {
@@ -159,7 +159,7 @@ main.projects {
 
 
 	section.main {
-		padding: 20px 0px;
+		padding: 30px 0px;
 	}
 
 	a {
@@ -173,14 +173,31 @@ main.projects {
 			color: darken($blue, 5%);
 		}
 	}
+	
+	.project-section {
+		margin: 0px 0px;
+	}
+
+	img {
+		padding: 15px;
+	}
+
+	h2.project {
+		color: $blue;
+		margin-bottom: 30px;
+		font-size: 1.6em;
+	}
+
+	.text {
+		margin: 30px 0px 50px;
+	}
 
 	p.paragraph {
 		font-size: 1.3em;
 		line-height: 1.7em;
 		font-family: $sans;
-		//width: 66%;
 		font-weight: 400;
-		margin: 30px 0px 80px;
+		margin: 10px 0px 20px;
 	}
 }
 
@@ -195,6 +212,10 @@ h2.header {
 
 	&.writing {
 		padding-left: 32px;
+	}
+
+	&.projects {
+		padding-left: 10px;
 	}
 }
 

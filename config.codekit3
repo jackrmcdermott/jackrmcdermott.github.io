@@ -154,6 +154,50 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/assets/images/projects/gtky1.jpg": {
+		"ft": 16384,
+		"iS": 153681,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/projects/gtky1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/projects/gtky2.jpg": {
+		"ft": 16384,
+		"iS": 91531,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/projects/gtky2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/projects/pano1.jpg": {
+		"ft": 16384,
+		"iS": 108175,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/projects/pano1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/projects/pano2.jpg": {
+		"ft": 16384,
+		"iS": 153966,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/projects/pano2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/assets/images/projects/red.jpg": {
 		"ft": 16384,
 		"iS": 164716,
@@ -167,7 +211,7 @@
 		},
 	"/assets/images/projects/s4g.jpg": {
 		"ft": 16384,
-		"iS": 254273,
+		"iS": 259994,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/images/projects/s4g.jpg",
@@ -178,7 +222,7 @@
 		},
 	"/assets/images/projects/shelf.jpg": {
 		"ft": 16384,
-		"iS": 189276,
+		"iS": 183513,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/images/projects/shelf.jpg",
@@ -193,6 +237,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/images/projects/vet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/projects/whiteboard.jpg": {
+		"ft": 16384,
+		"iS": 146537,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/projects/whiteboard.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -600,7 +655,7 @@
 "projectAttributes": {
 	"creationDate": 590457374.64131796,
 	"displayValue": "jackrmcdermott.github.io",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
 	"iconImageWasSetByUser": 0
 	},
