@@ -25,14 +25,6 @@
 		"oAP": "/.sass-cache/948923f7a655ab67b3f326bb73a2cad448808a50/style.scssc",
 		"oF": 0
 		},
-	"/about.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/about.html",
-		"oF": 0
-		},
 	"/assets/icon.png": {
 		"ft": 32768,
 		"iS": 1032,
@@ -259,14 +251,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/CNAME",
-		"oF": 0
-		},
-	"/components.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/components.html",
 		"oF": 0
 		},
 	"/deprecated/img/beach.jpg": {

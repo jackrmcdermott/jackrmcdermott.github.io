@@ -118,8 +118,8 @@ main.projects {
     main.projects a:hover {
       border-bottom: 3px solid #3585f0;
       color: #1d77ee; }
-  main.projects .project-section {
-    margin: 0px 0px; }
+  main.projects section.project {
+    margin: 0px; }
   main.projects img {
     padding: 15px; }
   main.projects h2.project {
@@ -127,7 +127,7 @@ main.projects {
     margin-bottom: 30px;
     font-size: 1.6em; }
   main.projects .text {
-    margin: 30px 0px 50px; }
+    margin: 20px 0px 80px; }
   main.projects p.paragraph {
     font-size: 1.3em;
     line-height: 1.7em;
