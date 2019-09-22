@@ -145,10 +145,7 @@ p.mobile-welcome {
 // Projects 
 
 main.projects {
-  -webkit-transition: all .2s linear;
-  -o-transition: all .2s linear;
-  transition: all .2s linear;
-  height: 100%;
+  margin-bottom: 100px;
 
 	@media (min-width: 768px) {
     	margin-left: 240px; 
@@ -175,21 +172,21 @@ main.projects {
 	}
 	
 	section.project {
-		margin: 0px;
+		margin: 40px 0px 20px;
+		display: inline-block;
+		
+		&:first {
+			margin-top: 40px;
+		}
 	}
 
 	img {
 		padding: 15px;
 	}
 
-	h2.project {
-		color: $blue;
-		margin-bottom: 30px;
-		font-size: 1.6em;
-	}
 
 	.text {
-		margin: 20px 0px 80px;
+		margin: 10px 0px 30px;
 	}
 
 	p.paragraph {
@@ -216,6 +213,7 @@ h2.header {
 
 	&.projects {
 		padding-left: 10px;
+		margin-bottom: 0px;
 	}
 }
 
