@@ -148,7 +148,7 @@
 		},
 	"/assets/images/projects/gtky1.jpg": {
 		"ft": 16384,
-		"iS": 153681,
+		"iS": 86128,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/images/projects/gtky1.jpg",
@@ -159,13 +159,24 @@
 		},
 	"/assets/images/projects/gtky2.jpg": {
 		"ft": 16384,
-		"iS": 91531,
+		"iS": 103626,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/images/projects/gtky2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/projects/ipad.png": {
+		"ft": 32768,
+		"iS": 744625,
+		"oA": 0,
+		"oAP": "/assets/images/projects/ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/assets/images/projects/pano1.jpg": {
