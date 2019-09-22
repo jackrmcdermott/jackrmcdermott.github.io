@@ -13,6 +13,9 @@ $cabin: 'Cabin',  Helvetica, Arial, sans-serif;
 
 body {
 	color: $black;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: antialiased;
+
 }
 
 a {

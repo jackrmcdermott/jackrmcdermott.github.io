@@ -102,17 +102,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/assets/images/projects/c.jpg": {
-		"ft": 16384,
-		"iS": 44107,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/images/projects/c.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/assets/images/projects/dash.jpg": {
 		"ft": 16384,
 		"iS": 143196,
@@ -130,6 +119,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/images/projects/driver.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/projects/full.jpg": {
+		"ft": 16384,
+		"iS": 149007,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/projects/full.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -157,26 +157,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/assets/images/projects/gtky2.jpg": {
+	"/assets/images/projects/ipad.jpg": {
 		"ft": 16384,
-		"iS": 103626,
+		"iS": 136333,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/images/projects/gtky2.jpg",
+		"oAP": "/assets/images/projects/ipad.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/images/projects/ipad.png": {
-		"ft": 32768,
-		"iS": 744625,
-		"oA": 0,
-		"oAP": "/assets/images/projects/ipad.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
+		"opt": 1,
 		"q": 100
 		},
 	"/assets/images/projects/pano1.jpg": {
@@ -185,17 +174,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/images/projects/pano1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/images/projects/pano2.jpg": {
-		"ft": 16384,
-		"iS": 153966,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/images/projects/pano2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -234,12 +212,56 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/assets/images/projects/vet.jpg": {
+	"/assets/images/projects/sized1.jpg": {
 		"ft": 16384,
-		"iS": 188173,
+		"iS": 293760,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/images/projects/vet.jpg",
+		"oAP": "/assets/images/projects/sized1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/projects/sized2.jpg": {
+		"ft": 16384,
+		"iS": 138465,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/projects/sized2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/projects/sized3.jpg": {
+		"ft": 16384,
+		"iS": 127945,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/projects/sized3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/projects/sized4.jpg": {
+		"ft": 16384,
+		"iS": 146990,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/projects/sized4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/projects/square.jpg": {
+		"ft": 16384,
+		"iS": 146467,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/projects/square.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
