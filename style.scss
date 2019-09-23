@@ -50,7 +50,7 @@ a {
 
 .navbar-brand {
 	font-variant: small-caps;
-	font-size: 2em;
+	font-size: 2.5em;
 	font-weight: bold;
 	color: $blue;
 }
@@ -92,7 +92,6 @@ ul.nav {
 	}
 }
 
-
 .nav-footer-social-buttons > a {
 	color: $blue;
 	-webkit-transition: all .2s ease-in-out;
@@ -100,7 +99,7 @@ ul.nav {
   	transition: all .2s ease-in-out;
 }
 
-p.mobile-welcome {
+.mobile-welcome {
 	display: none;
 }
 
@@ -209,7 +208,7 @@ h2.header {
 }
 
 main.writing {
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 }
 
 div.writing-post {
@@ -282,9 +281,19 @@ and (max-device-width : 680px) {
 	}
 	p.mobile-welcome {
 		display: inline-block;
-		font-size: 18px;
+		font-size: .9em;
 		line-height: 1.45em;
 		padding: 5px 12px 12px;
+	}
+
+	h2.header.writing {
+		margin-top: 10px;
+		padding-left: 5px;
+	}
+
+	div.writing-post {
+		margin: 0px 0px;
+		padding: 10px 8px 10px;
 	}
 	
 	main.projects {
