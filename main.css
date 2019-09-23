@@ -19,7 +19,7 @@ a {
 
 .site-brand {
   color: #3585f0;
-  font-size: 2em;
+  font-size: 1.95em;
   font-weight: bold;
   margin: 10px 0px 10px;
   font-variant: small-caps; }
@@ -44,7 +44,7 @@ p.sidebar-entry {
   font-weight: 600;
   letter-spacing: 0.03em;
   margin-top: 20px;
-  opacity: 0.7;
+  opacity: 0.9;
   text-transform: uppercase;
   color: #61748c; }
 
@@ -52,52 +52,22 @@ ul.nav {
   margin-top: 40px;
   font-size: 1.1em; }
 
-.nav > li > a.active {
-  color: #3585f0; }
+.nav > li > a {
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out; }
+  .nav > li > a.active {
+    color: #3585f0;
+    font-weight: 600; }
 
 .nav-footer-social-buttons > a {
   color: #3585f0;
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out; }
-  .nav-footer-social-buttons > a:hover {
-    color: #3585f0; }
 
 p.mobile-welcome {
   display: none; }
-
-.grid-item:hover {
-  opacity: 0.85;
-  -webkit-transition: all .2s ease-in-out;
-  -o-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out; }
-
-.grid-item .project-description {
-  text-align: center;
-  margin: 3%;
-  width: 94%; }
-
-.project-text-inner h3 {
-  font-size: 1.7em;
-  color: #3585f0; }
-
-.project-text-inner p {
-  color: #1a1b26;
-  width: 90%;
-  font-size: 1.1em;
-  line-height: 1.4em;
-  margin: 0 auto; }
-
-.project-text-inner p.more-btn {
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  font-size: 1em;
-  border-radius: 4px;
-  background: #3585f0;
-  color: white;
-  width: 40%;
-  padding: 7px 0px;
-  margin: 15px auto; }
 
 main.projects {
   margin-bottom: 100px; }
@@ -106,7 +76,7 @@ main.projects {
       margin-left: 240px; } }
   @media (min-width: 992px) {
     main.projects {
-      padding: 30px; } }
+      padding: 50px; } }
   main.projects section.main {
     padding: 30px 0px; }
   main.projects a {
@@ -118,14 +88,24 @@ main.projects {
       border-bottom: 3px solid #3585f0;
       color: #1d77ee; }
   main.projects section.project {
-    margin: 40px 0px 20px;
+    margin: 40px 0px 0px;
     display: inline-block; }
-    main.projects section.project:first {
-      margin-top: 40px; }
+    main.projects section.project#gettoknowyou {
+      margin-top: 20px; }
+    main.projects section.project#speech4god {
+      margin-top: 30px; }
+    main.projects section.project#politics {
+      margin-top: 90px; }
   main.projects img {
     padding: 15px; }
+    main.projects img.square {
+      max-width: 85%; }
+    main.projects img.small {
+      max-width: 70%; }
   main.projects .text {
-    margin: 10px 0px 30px; }
+    margin: 10px 0px 60px; }
+    main.projects .text.tight {
+      margin-bottom: 40px; }
   main.projects p.paragraph {
     font-size: 1.3em;
     line-height: 1.7em;
@@ -134,15 +114,18 @@ main.projects {
     margin: 10px 0px 20px; }
 
 h2.header {
-  margin-top: 20px;
-  font-size: 2.2em;
+  margin-top: 19px;
+  font-size: 2.1em;
   font-weight: bold;
   padding-left: 0px; }
   h2.header.writing {
     padding-left: 32px; }
   h2.header.projects {
-    padding-left: 10px;
-    margin-bottom: 0px; }
+    padding-left: 12px;
+    margin-bottom: -10px; }
+
+main.writing {
+  margin-bottom: 50px; }
 
 div.writing-post {
   margin: 0px 0px;
@@ -176,9 +159,11 @@ h5.date {
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   margin-top: 5px; }
 
-a.active {
-  color: #3585f0;
-  font-weight: bold; }
+.grid-item:hover {
+  opacity: 0.85;
+  -webkit-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out; }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 120px) and (max-device-width: 680px) {

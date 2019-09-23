@@ -42,7 +42,7 @@ a {
 
 .site-brand {
 	color: $blue;
-	font-size: 2em;
+	font-size: 1.95em;
 	font-weight: bold;
 	margin: 10px 0px 10px;
 	font-variant: small-caps;
@@ -71,7 +71,7 @@ p.sidebar-entry {
 	font-weight: 600;
 	letter-spacing: 0.03em;
 	margin-top: 20px;
-	opacity: 0.7;
+	opacity: 0.9;
 	text-transform: uppercase;
 	color: $gray;
 }
@@ -81,66 +81,27 @@ ul.nav {
 	font-size: 1.1em;
 }
 
-.nav > li > a.active {
-	color: $blue;
-}
 
-.nav-footer-social-buttons > a {
-	color: $blue ;
+.nav > li > a {
 	-webkit-transition: all .2s ease-in-out;
   	-o-transition: all .2s ease-in-out;
   	transition: all .2s ease-in-out;
-	
-	&:hover {
+	&.active {
 		color: $blue;
+		font-weight: 600; 
 	}
+}
+
+
+.nav-footer-social-buttons > a {
+	color: $blue;
+	-webkit-transition: all .2s ease-in-out;
+  	-o-transition: all .2s ease-in-out;
+  	transition: all .2s ease-in-out;
 }
 
 p.mobile-welcome {
 	display: none;
-}
-
-// Project Tiles
-
-.grid-item:hover {
-	opacity: 0.85;
-	-webkit-transition: all .2s ease-in-out;
-  	-o-transition: all .2s ease-in-out;
-  	transition: all .2s ease-in-out;
-}
-
-
-.grid-item .project-description {
-	text-align: center;
-	margin: 3%;
-	width: 94%;
-}
-
-.project-text-inner {
-	h3 {
-		font-size: 1.7em;
-		color: $blue;
-	}
-
-	p {
-		color: $black;
-		width: 90%;
-		font-size: 1.1em;
-		line-height: 1.4em;
-		margin: 0 auto;
-	}
-
-	p.more-btn {
-		text-transform: uppercase;
-		letter-spacing: 0.03em;
-		font-size: 1em;
-		border-radius: 4px;
-		background: $blue;
-		color: white;
-		width: 40%;
-		padding: 7px 0px;
-		margin: 15px auto;
-	}
 }
 
 
@@ -148,15 +109,14 @@ p.mobile-welcome {
 // Projects 
 
 main.projects {
-  margin-bottom: 100px;
+	margin-bottom: 100px;
 
 	@media (min-width: 768px) {
     	margin-left: 240px; 
 	}
 	@media (min-width: 992px) {
-    	padding: 30px; 
+    	padding: 50px; 
     }
-
 
 	section.main {
 		padding: 30px 0px;
@@ -175,21 +135,42 @@ main.projects {
 	}
 	
 	section.project {
-		margin: 40px 0px 20px;
+		margin: 40px 0px 0px;
 		display: inline-block;
+
 		
-		&:first {
-			margin-top: 40px;
+
+		&#gettoknowyou {
+			margin-top: 20px;
+		}
+
+		&#speech4god {
+			margin-top: 30px;
+		}
+
+		&#politics {
+			margin-top: 90px;
 		}
 	}
 
 	img {
 		padding: 15px;
+
+		&.square {
+			max-width: 85%;
+		}
+
+		&.small {
+			max-width: 70%;
+		}
 	}
 
-
 	.text {
-		margin: 10px 0px 30px;
+		margin: 10px 0px 60px;
+
+		&.tight {
+			margin-bottom: 40px;
+		}
 	}
 
 	p.paragraph {
@@ -205,8 +186,8 @@ main.projects {
 // Writing
 
 h2.header {
-	margin-top: 20px;
-	font-size: 2.2em;
+	margin-top: 19px;
+	font-size: 2.1em;
 	font-weight: bold;
 	padding-left: 0px;
 
@@ -215,9 +196,13 @@ h2.header {
 	}
 
 	&.projects {
-		padding-left: 10px;
-		margin-bottom: 0px;
+		padding-left: 12px;
+		margin-bottom: -10px;
 	}
+}
+
+main.writing {
+	margin-bottom: 50px;
 }
 
 div.writing-post {
@@ -258,11 +243,12 @@ h5.date {
 	margin-top: 5px;
 }
 
-a.active {
-	color: $blue;
-	font-weight: bold;
+.grid-item:hover {
+	opacity: 0.85;
+	-webkit-transition: all .25s ease-in-out;
+  	-o-transition: all .25s ease-in-out;
+  	transition: all .25s ease-in-out;
 }
-
 
 
 /* Smartphones (portrait and landscape) ----------- */
