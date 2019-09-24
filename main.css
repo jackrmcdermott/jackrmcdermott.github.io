@@ -17,11 +17,21 @@ a {
     color: #3585f0;
     text-decoration: none; }
 
+figure.filter-max {
+  position: relative;
+  -webkit-filter: contrast(94%) brightness(112%) saturate(120%);
+  filter: contrast(94%) brightness(112%) saturate(120%); }
+
+figure.filter-min {
+  position: relative;
+  -webkit-filter: contrast(94%) brightness(105%) saturate(120%);
+  filter: contrast(94%) brightness(105%) saturate(120%); }
+
 .site-brand {
   color: #3585f0;
   font-size: 1.95em;
   font-weight: bold;
-  margin: 10px 0px 10px;
+  margin: 0px 0px 10px;
   font-variant: small-caps; }
 
 .navbar-brand {
@@ -32,25 +42,26 @@ a {
 
 .site-tagline {
   margin-bottom: 20px;
-  line-height: 1.6em;
+  line-height: 1.5em;
   font-size: 1.1em; }
 
 p.sidebar-entry {
-  margin: 20px 0px 20px;
+  margin: 20px 0px 0px;
   font-size: 1.1em; }
 
 .timeframe {
   font-size: 0.8em;
   font-weight: 600;
   letter-spacing: 0.03em;
-  margin-top: 20px;
+  margin-top: 10px;
   opacity: 0.9;
   text-transform: uppercase;
   color: #61748c; }
 
 ul.nav {
   margin-top: 10px;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  line-height: 1.5em; }
 
 .nav > li > a {
   -webkit-transition: all .2s ease-in-out;
@@ -95,6 +106,8 @@ main.projects {
   main.projects section.project {
     margin: 40px 0px 0px;
     display: inline-block; }
+    main.projects section.project#panoramaed {
+      margin-top: 30px; }
     main.projects section.project#gettoknowyou {
       margin-top: 0px; }
     main.projects section.project#speech4god {
@@ -128,7 +141,7 @@ h2.header {
   h2.header.writing {
     padding-left: 32px; }
   h2.header.projects {
-    padding-left: 12px;
+    padding-left: 13px;
     margin-bottom: -10px;
     margin-top: 0px; }
 
@@ -149,13 +162,15 @@ div.writing-post {
 
 h4.title {
   margin-bottom: 2px;
+  font-weight: bold;
   color: #3585f0;
-  font-size: 1.3em; }
+  font-size: 1.4em;
+  line-height: 1.3em; }
 
 span.subtitle {
   color: #61748c;
   font-size: 1.15em;
-  line-height: 1.2em; }
+  line-height: 1.3em; }
 
 h5.date {
   font-size: 0.8em;
@@ -163,12 +178,12 @@ h5.date {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #61748c;
-  opacity: 0.6;
+  opacity: 0.7;
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   margin-top: 5px; }
 
 .grid-item .project-description {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.9);
   text-align: center;
   margin: 3%;
   width: 94%; }
@@ -183,8 +198,9 @@ h5.date {
 .project-text-inner p {
   color: #1a1b26;
   width: 90%;
-  font-size: 1.1em;
-  line-height: 1.4em;
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 1.2em;
   margin: 0 auto; }
 
 .project-text-inner p.more-btn {
@@ -205,7 +221,7 @@ h5.date {
   .navbar-brand {
     font-size: 2em; }
   ul.nav {
-    margin-top: 0px; }
+    margin-top: 20px; }
   .grid-item {
     padding: 10px; }
   .timeframe {
@@ -223,6 +239,10 @@ h5.date {
   div.writing-post {
     margin: 0px 0px;
     padding: 10px 8px 10px; }
+  .nav-footer-social-buttons > a {
+    font-size: 1.3em;
+    margin-left: 0px;
+    margin-right: 10px; }
   main.projects {
     margin: 10px 0px 50px; }
     main.projects section.project {
@@ -4774,6 +4794,7 @@ main {
 @media (min-width: 768px) {
   .sidebar {
     padding: 30px;
+    padding-right: 20px;
     left: 0;
     top: 0; } }
 

@@ -48,9 +48,9 @@
         <p class="sidebar-entry"><span class="timeframe">Before</span></br>Panorama Education</br>Speech4Good</br>Tufts</p>
       </div>
       <ul class="nav">
-        <li><a href="/" title="Welcome" class="welcome active">Welcome</a></li>
+        <li><a href="/" title="Welcome" class="welcome">Welcome</a></li>
         <li><a href="/writing" title="Writing" class="writing">Writing</a></li>
-        <li><a href="/projects" title="Projects" class="projects">Projects</a></li>
+        <li><a href="/projects" title="Projects" class="projects active">Projects</a></li>
       </ul>
       <nav class="nav-footer">
         <p class="nav-footer-social-buttons">
@@ -75,7 +75,7 @@
   <!-- Panorama -->
   <section class="project" id="panoramaed">
     
-    <p><img class="img-responsive square" alt="" src="/assets/images/projects/square.jpg" /></p>
+    <figure class="filter-min"><img class="img-responsive square" alt="" src="/assets/images/projects/square.jpg" /></figure>
 
     <div class="col-xs-12 col-md-8 text tight">
       <p class="paragraph">In 2014, I joined <a href="https://panoramaed.com" target="_blank"><strong>Panorama Education</strong></a> as the company's first marketing hire. I was the product marketing manager for the company's introduction of new education technology products and services for K-12 school districts. We launched research-backed surveys to help educators measure student growth in social-emotional learning. These progress that are now the most widely used measures, reaching.</p>
@@ -83,10 +83,10 @@
 
     <div class="row">
       <div class="col-xs-12 col-md-6">
-        <p><img class="img-responsive" alt="" src="/assets/images/projects/pano1.jpg"></p>
+        <p><figure class="filter-min"><img class="img-responsive" alt="" src="/assets/images/projects/pano1.jpg"></figure></p>
       </div>
       <div class="col-xs-12 col-md-6">
-        <p><img class="img-responsive" alt="" src="/assets/images/projects/sized3.jpg"></p>
+        <p><figure class="filter-max"><img class="img-responsive" alt="" src="/assets/images/projects/sized3.jpg"></figure></p>
       </div>
     </div><!-- end row -->
 
@@ -102,10 +102,10 @@
 
   <div class="row">
     <div class="col-xs-12 col-md-6">
-      <p><img class="img-responsive" alt="" src="/assets/images/projects/gtky1.jpg"></p>
+      <p><figure class=""><img class="img-responsive" alt="" src="/assets/images/projects/gtky1.jpg"></figure></p>
     </div>
     <div class="col-xs-12 col-md-6">
-      <p><img class="img-responsive" alt="" src="/assets/images/projects/sized2.jpg"></p>
+      <p><figure class="filter-max"><img class="img-responsive" alt="" src="/assets/images/projects/sized2.jpg"/></figure></p>
     </div>
   </div><!-- end row -->
 
@@ -149,10 +149,10 @@
 
     <div class="row">
       <div class="col-xs-12 col-md-6">
-        <p><img class="img-responsive" alt="" src="/assets/images/projects/driver.jpg"></p>
+        <p><figure class=""><img class="img-responsive" alt="" src="/assets/images/projects/driver.jpg"></figure></p>
       </div>
       <div class="col-xs-12 col-md-6">
-        <p><img class="img-responsive" alt="" src="/assets/images/projects/sized1.jpg"></p>
+        <p><figure class="filter-min"><img class="img-responsive" alt="" src="/assets/images/projects/sized1.jpg"></figure></p>
       </div>
     </div>
 
@@ -164,7 +164,15 @@
         
 </main>
 
-<script type="text/javascript" src="./main.85741bff.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function (event) {
+  navbarToggleSidebar();
+  navActivePage();
+});
+</script>
+
+<script type="text/javascript" src="/main.85741bff.js"></script>
 
 </body>
 
