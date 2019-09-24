@@ -34,7 +34,7 @@ a {
   font-size: 1.1em; }
 
 p.sidebar-entry {
-  margin: 20px 0px 30px;
+  margin: 20px 0px 20px;
   font-size: 1.1em; }
 
 .timeframe {
@@ -47,8 +47,8 @@ p.sidebar-entry {
   color: #61748c; }
 
 ul.nav {
-  margin-top: 40px;
-  font-size: 1.1em; }
+  margin-top: 10px;
+  font-size: 1.2em; }
 
 .nav > li > a {
   -webkit-transition: all .2s ease-in-out;
@@ -63,6 +63,9 @@ ul.nav {
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out; }
+
+.sidebar.open {
+  top: 0px; }
 
 .mobile-welcome {
   display: none; }
@@ -209,8 +212,8 @@ h5.date {
     font-size: 1.5em; }
   p.mobile-welcome {
     display: inline-block;
-    font-size: .9em;
-    line-height: 1.45em;
+    font-size: 1.2em;
+    line-height: 1.35em;
     padding: 5px 12px 12px; }
   h2.header.writing {
     margin-top: 10px;

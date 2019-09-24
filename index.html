@@ -15,11 +15,6 @@
   <link href="./assets/icon.png" rel="icon">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script>
-    $(function(){
-      $('#header').load('header.html');
-    });
-  </script>
 
   <!-- Stylesheets -->
   <link href="./main.css" rel="stylesheet"></head>
@@ -29,12 +24,54 @@
 
 <body>
 
-<!-- Reusable Header --><div id="header"></div>
+<!-- Header -->
+<header id="header">
+  <div class="navbar navbar-default visible-xs">
+    <button type="button" class="navbar-toggle collapsed">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+   <a href="/" class="navbar-brand">Jack McDermott</a>
+  </div>
+
+  <nav class="sidebar">
+    <div class="navbar-collapse" id="navbar-collapse">
+      <div class="site-header hidden-xs">
+          <a class="site-brand" href="/" title="Jack McDermott">
+            Jack McDermott
+          </a>
+        <p class="site-tagline">Hello, I'm Jack McDermott.</br>  I build education and technology products. Today I'm living and studying in Charlottesville, VA.</p>
+        <p class="sidebar-entry"><span class="timeframe">Now</span></br>UVA Darden (MBA/M.Ed)</p>
+        <p class="sidebar-entry"><span class="timeframe">Before</span></br>Panorama Education</br>Speech4Good</br>Tufts</p>
+      </div>
+      <ul class="nav">
+        <li><a href="/" title="Welcome" class="welcome active">Welcome</a></li>
+        <li><a href="/writing" title="Writing" class="writing">Writing</a></li>
+        <li><a href="/projects" title="Projects" class="projects">Projects</a></li>
+      </ul>
+      <nav class="nav-footer">
+        <p class="nav-footer-social-buttons">
+          <a class="fa-icon" href="https://twitter.com/jackrmcdermott" title="">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a class="fa-icon" href="https://linkedin.com/in/jackrmcdermott" title="">
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a class="fa-icon" href="https://aemail.com/LND" title="">
+            <i class="fa fa-envelope"></i>
+          </a>
+        </p>
+      </nav>  
+    </div> 
+  </nav>
+</header>
 
 <main class="welcome" id="main-collapse">
  
     <div class="hero-full-wrapper">
-      <p class="mobile-welcome"><strong>Hello, I'm Jack McDermott.</strong></br> I build education and technology products.
+      <p class="mobile-welcome"><strong>Hello, I'm Jack McDermott.</strong></br> I build education and technology products. Today I'm living and studying in Charlottesville, VA.
       </p>
 
       <div class="grid">
@@ -47,8 +84,8 @@
                 <div class="project-text-holder">
                   <div class="project-text-inner">
                     <h3>Panorama Education</h3>
-                    <p>Data analytics for K-12 school districts</p>
-                    <p class="more-btn">Read more &rarr;</p>
+                    <p>Introducing social-emotional learning assessment and analytics for K-12 schools</p>
+                    <p>&nbsp;</p>
                   </div>
                 </div>
               </a>
@@ -60,8 +97,8 @@
                 <div class="project-text-holder">
                   <div class="project-text-inner">
                     <h3>Speech4Good</h3>           
-                    <p>Bringing proven speech-language therapy tools to iOS</p>
-                    <p class="more-btn">Read more &rarr;</p>
+                    <p>Making proven speech-language therapy tools more accessible</p>
+                    <p>&nbsp;</p>
                   </div>
                 </div>
               </a>
@@ -73,8 +110,8 @@
                 <div class="project-text-holder">
                   <div class="project-text-inner">
                     <h3>Political + Digital Tools</h3>           
-                    <p>Connecting progressive candidates to voters</p>
-                    <p class="more-btn">Read more &rarr;</p>
+                    <p>Connecting progressive candidates to engage voters</p>
+                    <p>&nbsp;</p>
                   </div>
                 </div>
               </a>
@@ -86,8 +123,8 @@
                 <div class="project-text-holder">
                   <div class="project-text-inner">
                     <h3>Fluently</h3>           
-                    <p>Detecting and measuring speech disfluencies automatically</p>
-                    <p class="more-btn">Read more &rarr;</p>
+                    <p>Detecting moments of speech disfluency using an iOS app</p>
+                    <p>&nbsp;</p>
                   </div>
                 </div>
               </a>
@@ -99,21 +136,17 @@
                 <div class="project-text-holder">
                   <div class="project-text-inner">
                     <h3>Get to Know You Survey</h3>           
-                    <p>Helping students and teachers build positive relationships in school</p>
-                    <p class="more-btn">Read more &rarr;</p>
+                    <p>Helping students and teachers build more positive relationships in school</p>
+                    <p>&nbsp;</p>
                   </div>
                 </div>
               </a>
-            </div>
-
+            </div></div>
       </div>
-
   </div>
 
 </main>
 
-
-<!-- Reusable Script --><div id="scripts"></div>
 
 <script>
   document.addEventListener("DOMContentLoaded", function (event) {
@@ -136,18 +169,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 
-<script>
-  $(function(){
-    var current = location.pathname;
-    $('#nav li a').each(function(){
-        var $this = $(this);
-        // if the current path is like this link, make it active
-        if($this.attr('href').indexOf(current) !== -1){
-            $this.addClass('active');
-        }
-    })
-})
-</script>
 
 <script>
   var scroll = new SmoothScroll('a[href*="#"]', {
@@ -155,7 +176,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 
-<script type="text/javascript" src="./main.85741bff.js"></script>
+<script type="text/javascript" src="main.85741bff.js"></script>
 
 </body>
 
