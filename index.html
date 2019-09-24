@@ -11,10 +11,10 @@
 
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
-  
   <link href="./assets/icon.png" rel="icon">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.js"></script>
 
   <!-- Stylesheets -->
   <link href="./main.css" rel="stylesheet"></head>
@@ -24,7 +24,6 @@
 
 <body>
 
-<!-- Header -->
 <header id="header">
   <div class="navbar navbar-default visible-xs">
     <button type="button" class="navbar-toggle collapsed">
@@ -42,7 +41,7 @@
           <a class="site-brand" href="/" title="Jack McDermott">
             Jack McDermott
           </a>
-        <p class="site-tagline">Hi, I'm Jack McDermott.</br> I'm an entrepreneur and student (MBA/M.Ed) at the University of Virginia. Before that, I've built education and technology products.</p>
+        <p class="site-tagline">Hi, I'm Jack McDermott.</br> I'm an entrepreneur and student (MBA/M.Ed) at the University of Virginia. Before that, I built education and technology products.</p>
         <p class="sidebar-entry"><span class="timeframe">Now</span></br>UVA Darden (MBA/M.Ed)</p>
         <p class="sidebar-entry"><span class="timeframe">Before</span></br>Panorama Education</br>Speech4Good</br>Tufts</p>
       </div>
@@ -53,13 +52,13 @@
       </ul>
       <nav class="nav-footer">
         <p class="nav-footer-social-buttons">
-          <a class="fa-icon" href="https://twitter.com/jackrmcdermott" title="">
+          <a class="fa-icon" href="https://twitter.com/jackrmcdermott" title="Twitter" target="_blank">
             <i class="fa fa-twitter"></i>
           </a>
-          <a class="fa-icon" href="https://linkedin.com/in/jackrmcdermott" title="">
+          <a class="fa-icon" href="https://linkedin.com/in/jackrmcdermott" title="LinkedIn" target="_blank">
             <i class="fa fa-linkedin"></i>
           </a>
-          <a class="fa-icon" href="https://aemail.com/LND" title="">
+          <a class="fa-icon" href="https://aemail.com/LND" title="Email" target="_blank">
             <i class="fa fa-envelope"></i>
           </a>
         </p>
@@ -71,7 +70,7 @@
 <main class="welcome" id="main-collapse">
  
     <div class="hero-full-wrapper">
-      <p class="mobile-welcome"><strong>Hi, I'm Jack McDermott.</strong></br> I'm an entrepreneur and student (MBA/M.Ed) at the University of Virginia. Before that, I've built education and technology products.
+      <p class="mobile-welcome"><strong>Hi, I'm Jack McDermott.</strong></br> I'm an entrepreneur and student (MBA/M.Ed) at the University of Virginia. Before that, I built education and technology products.
       </p>
 
       <div class="grid">
@@ -164,7 +163,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 <script>
   document.addEventListener("DOMContentLoaded", function (event) {
-
   $('.welcome').addClass('active');
 });
 </script>
