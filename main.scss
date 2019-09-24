@@ -3,7 +3,7 @@
 $sans: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 $cabin: 'Cabin',  Helvetica, Arial, sans-serif;
 
-@import url(https://fonts.googleapis.com/css?family=Cabin:400,600,700|Source+Sans+Pro:300,400,700|Open+Sans:400,400i,700,700i&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,600,700|Source+Sans+Pro:300,400,700&display=swap);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -4463,9 +4463,6 @@ button.close {
   margin: 0;
   padding: 0; }
 
-.grid-item:hover .project-description {
-  opacity: 0; //fix here
-}
 
 .section-container-spacer {
   margin-bottom: 30px; }

@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Cabin:400,600,700|Source+Sans+Pro:300,400,700|Open+Sans:400,400i,700,700i&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,600,700|Source+Sans+Pro:300,400,700&display=swap);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 body {
   color: #1a1b26;
@@ -164,11 +164,36 @@ h5.date {
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   margin-top: 5px; }
 
-.grid-item:hover {
-  opacity: 0.85;
-  -webkit-transition: all .25s ease-in-out;
-  -o-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out; }
+.grid-item .project-description {
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  margin: 3%;
+  width: 94%; }
+
+.grid-item:hover .project-description {
+  opacity: 1; }
+
+.project-text-inner h3 {
+  font-size: 1.7em;
+  color: #3585f0; }
+
+.project-text-inner p {
+  color: #1a1b26;
+  width: 90%;
+  font-size: 1.1em;
+  line-height: 1.4em;
+  margin: 0 auto; }
+
+.project-text-inner p.more-btn {
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-size: 1em;
+  border-radius: 4px;
+  background: #3585f0;
+  color: white;
+  width: 40%;
+  padding: 7px 0px;
+  margin: 15px auto; }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 120px) and (max-device-width: 680px) {
@@ -4673,9 +4698,6 @@ button.close {
   height: 100%;
   margin: 0;
   padding: 0; }
-
-.grid-item:hover .project-description {
-  opacity: 0; }
 
 .section-container-spacer {
   margin-bottom: 30px; }
