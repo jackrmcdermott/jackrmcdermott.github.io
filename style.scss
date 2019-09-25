@@ -324,11 +324,12 @@ h5.date {
 @media only screen 
 and (min-device-width : 120px) 
 and (max-device-width : 680px) {
+	
 	.navbar {
 		padding: 10px 0px 0px;
 	}
 	.navbar-brand {
-		font-size: 2em;
+		font-size: 2.4em;
 	}
 	ul.nav {
 		margin-top: 20px;
@@ -340,18 +341,35 @@ and (max-device-width : 680px) {
 		font-size: 15px;
 	}
 	p.sidebar-entry, ul.nav {
-		font-size: 1.5em;
+		font-size: 1.6em;
 	}
 	p.mobile-welcome {
 		display: inline-block;
-		font-size: 1.2em;
+		font-size: 1.6em;
 		line-height: 1.35em;
-		padding: 5px 12px 12px;
+		padding: 0px 20px 20px 12px;
+		
+		strong {
+			font-size: 1.1em;
+			margin: 30px 0px 15px;
+			display: inline-block;
+		}
+
 	}
 
-	h2.header.writing {
-		margin-top: 10px;
-		padding-left: 5px;
+	.sidebar {
+		padding-left: 30px;
+	}
+
+	ul.nav > li {
+		margin: 0px 0px 20px;
+		padding: 10px 0px;
+	}
+
+	h2.header.projects, h2.header.writing {
+		margin: 10px 0px 5px;
+		font-size: 2.6em;
+		padding-left: 10px;
 	}
 
 	div.writing-post {
@@ -371,10 +389,6 @@ and (max-device-width : 680px) {
 		section.project {
 			margin: 30px 0px 0px;
 			display: inline-block;
-
-			h2.header {
-				margin-top: 0px;
-			}
 
 			&#gettoknowyou {
 				margin-top: 0px;
