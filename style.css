@@ -32,7 +32,7 @@ figure.filter-light {
 
 .site-brand {
   color: #3585f0;
-  font-size: 1.95em;
+  font-size: 2.0em;
   font-weight: bold;
   margin: 0px 0px 10px;
   font-variant: small-caps; }
@@ -87,7 +87,7 @@ ul.nav {
   display: none; }
 
 main.projects {
-  margin-bottom: 80px; }
+  margin-bottom: 60px; }
   @media (min-width: 768px) {
     main.projects {
       margin-left: 240px; } }
@@ -107,16 +107,16 @@ main.projects {
       border-bottom: 3px solid #3585f0;
       color: #1d77ee; }
   main.projects section.project {
-    margin: 40px 0px 0px;
+    margin: 30px 0px 0px;
     display: inline-block; }
     main.projects section.project#panoramaed {
       margin-top: 30px; }
     main.projects section.project#gettoknowyou {
       margin-top: 0px; }
     main.projects section.project#speech4god {
-      margin-top: 10px; }
+      margin-top: 0px; }
     main.projects section.project#fluently {
-      margin-top: 10px; }
+      margin-top: 0px; }
     main.projects section.project#politics {
       margin-top: 50px; }
   main.projects img {
@@ -137,7 +137,7 @@ main.projects {
     margin: 10px 0px 20px; }
 
 h2.header {
-  margin-top: 19px;
+  margin-top: 10px;
   font-size: 2.1em;
   font-weight: bold;
   padding-left: 0px; }
@@ -145,8 +145,7 @@ h2.header {
     padding-left: 32px; }
   h2.header.projects {
     padding-left: 13px;
-    margin-bottom: -10px;
-    margin-top: 0px; }
+    margin: -10px 0px; }
 
 main.writing {
   margin-bottom: 40px; }

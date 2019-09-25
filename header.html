@@ -21,9 +21,9 @@
         <p class="sidebar-entry"><span class="timeframe">Before</span></br>Panorama Education</br>Speech4Good</br>Tufts</p>
       </div>
       <ul class="nav">
-        <li><a href="/" title="Welcome" class="welcome">Welcome</a></li>
-        <li><a href="/writing" title="Writing" id="writing" class="writing">Writing</a></li>
-        <li><a href="/projects" title="Projects" class="projects">Projects</a></li>
+        <li><a href="/" title="Welcome" class="welcome link">Welcome</a></li>
+        <li><a href="/writing" title="Writing" class="writing link">Writing</a></li>
+        <li><a href="/projects" title="Projects" class="projects link">Projects</a></li>
       </ul>
       <nav class="nav-footer">
         <p class="nav-footer-social-buttons">
@@ -40,3 +40,17 @@
       </nav>  
     </div> 
   </nav>
+
+<script>
+$(function(){
+  if($('main.projects').length >0 ){
+    $('a.projects').addClass('active');
+  }
+  if($('main.writing').length >0 ){
+    $('a.writing').addClass('active');
+  }
+  if($('main.welcome').length >0 ){
+    $('a.welcome').addClass('active');
+  }
+});
+</script>
