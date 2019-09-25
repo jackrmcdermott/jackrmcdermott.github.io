@@ -25,6 +25,11 @@ figure.filter-min {
   -webkit-filter: contrast(94%) brightness(105%) saturate(120%);
   filter: contrast(94%) brightness(105%) saturate(120%); }
 
+figure.filter-light {
+  position: relative;
+  -webkit-filter: contrast(94%) brightness(115%) saturate(110%);
+  filter: contrast(94%) brightness(115%) saturate(110%); }
+
 .site-brand {
   color: #3585f0;
   font-size: 1.95em;
@@ -82,7 +87,7 @@ ul.nav {
   display: none; }
 
 main.projects {
-  margin-bottom: 100px; }
+  margin-bottom: 80px; }
   @media (min-width: 768px) {
     main.projects {
       margin-left: 240px; } }
@@ -266,3 +271,17 @@ h5.date {
       margin: 0px 0px 0px; }
       main.projects .text.tight {
         margin-bottom: 0px; } }
+
+@media only screen and (min-device-width: 1480px) {
+  main.welcome {
+    max-width: 1400px;
+    margin-left: 300px; }
+  main.projects {
+    margin-left: 300px;
+    max-width: 1200px; }
+  main.writing {
+    max-width: 1100px;
+    margin-left: 300px; }
+  .sidebar {
+    padding-top: 42px;
+    padding-right: 0px; } }

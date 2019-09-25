@@ -21,52 +21,18 @@
   <link href="/main.css" rel="stylesheet"></head>
   <link href="/style.css" rel="stylesheet"></head>
 
+  <script>
+    $(function(){
+      $('#header').load('/header.html');
+    });
+  </script>
+
 </head>
 
 <body>
 
-<header id="header">
-  <div class="navbar navbar-default visible-xs">
-    <button type="button" class="navbar-toggle collapsed">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-   <a href="/" class="navbar-brand">Jack McDermott</a>
-  </div>
-
-  <nav class="sidebar">
-    <div class="navbar-collapse" id="navbar-collapse">
-      <div class="site-header hidden-xs">
-          <a class="site-brand" href="/" title="Jack McDermott">
-            Jack McDermott
-          </a>
-        <p class="site-tagline">Hi, I'm Jack McDermott.</br> I'm an entrepreneur and student (MBA/M.Ed) at the University of Virginia. Before that, I built education and technology products.</p>
-        <p class="sidebar-entry"><span class="timeframe">Now</span></br>UVA Darden (MBA/M.Ed)</p>
-        <p class="sidebar-entry"><span class="timeframe">Before</span></br>Panorama Education</br>Speech4Good</br>Tufts</p>
-      </div>
-      <ul class="nav">
-        <li><a href="/" title="Welcome" class="welcome">Welcome</a></li>
-        <li><a href="/writing" title="Writing" class="writing">Writing</a></li>
-        <li><a href="/projects" title="Projects" class="projects active">Projects</a></li>
-      </ul>
-      <nav class="nav-footer">
-        <p class="nav-footer-social-buttons">
-          <a class="fa-icon" href="https://twitter.com/jackrmcdermott" title="Twitter" target="_blank">
-            <i class="fa fa-twitter"></i>
-          </a>
-          <a class="fa-icon" href="https://linkedin.com/in/jackrmcdermott" title="LinkedIn" target="_blank">
-            <i class="fa fa-linkedin"></i>
-          </a>
-          <a class="fa-icon" href="https://aemail.com/LND" title="Email" target="_blank">
-            <i class="fa fa-envelope"></i>
-          </a>
-        </p>
-      </nav>  
-    </div> 
-  </nav>
-</header>
+<!--Header -->
+<header id="header"></header>
 
 <main class="projects">
   <h2 class="header projects">Projects</h2>
@@ -85,7 +51,7 @@
         <p><figure class="filter-min"><img class="img-responsive" alt="" src="/assets/images/projects/pano1.jpg"></figure></p>
       </div>
       <div class="col-xs-12 col-md-6">
-        <p><figure class="filter-max"><img class="img-responsive" alt="" src="/assets/images/projects/sized3.jpg"></figure></p>
+        <p><figure class="filter-light"><img class="img-responsive" alt="" src="/assets/images/projects/sized3.jpg"></figure></p>
       </div>
     </div><!-- end row -->
 
@@ -135,7 +101,7 @@
    <!-- Fluently -->
   <section class="project" id="fluently">
     
-    <p><img class="img-responsive small" alt="" src="/assets/images/projects/ipad.jpg"></p>
+    <p><figure class="filter-min"><img class="img-responsive small" alt="" src="/assets/images/projects/ipad.jpg"></figure></p>
 
     <div class="col-xs-12 col-md-8">
       <p class="paragraph">As a part of Speech4Good, I launched a project called <strong>Fluently</strong> that detected specific moments of disfluent speech — like stuttering — through an iOS app for monitoring by speech therapists. This work turned out to be more technically difficult than we had hoped, so we sunsetted the project (still one of my favorites) about a year later and moved on to our next things.</p>
@@ -151,7 +117,7 @@
         <p><figure class=""><img class="img-responsive" alt="" src="/assets/images/projects/driver.jpg"></figure></p>
       </div>
       <div class="col-xs-12 col-md-6">
-        <p><figure class="filter-min"><img class="img-responsive" alt="" src="/assets/images/projects/sized1.jpg"></figure></p>
+        <p><figure class="filter-light"><img class="img-responsive" alt="" src="/assets/images/projects/sized1.jpg"></figure></p>
       </div>
     </div>
 

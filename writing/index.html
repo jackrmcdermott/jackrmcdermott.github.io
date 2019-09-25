@@ -20,52 +20,18 @@
   <link href="/main.css" rel="stylesheet"></head>
   <link href="/style.css" rel="stylesheet"></head>
 
+  <script>
+    $(function(){
+      $('#header').load('/header.html');
+    });
+  </script>
+
 </head>
 
 <body>
 
-<header id="header">
-  <div class="navbar navbar-default visible-xs">
-    <button type="button" class="navbar-toggle collapsed">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-   <a href="/" class="navbar-brand">Jack McDermott</a>
-  </div>
-
-  <nav class="sidebar">
-    <div class="navbar-collapse" id="navbar-collapse">
-      <div class="site-header hidden-xs">
-          <a class="site-brand" href="/" title="Jack McDermott">
-            Jack McDermott
-          </a>
-        <p class="site-tagline">Hi, I'm Jack McDermott.</br> I'm an entrepreneur and student (MBA/M.Ed) at the University of Virginia. Before that, I built education and technology products.</p>
-        <p class="sidebar-entry"><span class="timeframe">Now</span></br>UVA Darden (MBA/M.Ed)</p>
-        <p class="sidebar-entry"><span class="timeframe">Before</span></br>Panorama Education</br>Speech4Good</br>Tufts</p>
-      </div>
-      <ul class="nav">
-        <li><a href="/" title="Welcome" class="welcome">Welcome</a></li>
-        <li><a href="/writing" title="Writing" class="writing active">Writing</a></li>
-        <li><a href="/projects" title="Projects" class="projects">Projects</a></li>
-      </ul>
-      <nav class="nav-footer">
-        <p class="nav-footer-social-buttons">
-          <a class="fa-icon" href="https://twitter.com/jackrmcdermott" title="Twitter" target="_blank">
-            <i class="fa fa-twitter"></i>
-          </a>
-          <a class="fa-icon" href="https://linkedin.com/in/jackrmcdermott" title="LinkedIn" target="_blank">
-            <i class="fa fa-linkedin"></i>
-          </a>
-          <a class="fa-icon" href="https://aemail.com/LND" title="Email" target="_blank">
-            <i class="fa fa-envelope"></i>
-          </a>
-        </p>
-      </nav>  
-    </div> 
-  </nav>
-</header>
+<!-- Header -->
+<header id="header"></header>
 
 <main class="writing" id="main-collapse">
 
@@ -142,13 +108,18 @@
     </div>
   </div>
 
-
 </main>
 
 <script>
 document.addEventListener("DOMContentLoaded", function (event) {
   navbarToggleSidebar();
   navActivePage();
+});
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+  $('a#writing').addClass('active');
 });
 </script>
 
