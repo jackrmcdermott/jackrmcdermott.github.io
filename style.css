@@ -107,7 +107,7 @@ main.projects {
       border-bottom: 3px solid #3585f0;
       color: #1d77ee; }
   main.projects section.project {
-    margin: 30px 0px 0px;
+    margin: 20px 0px 0px;
     display: inline-block; }
     main.projects section.project#panoramaed {
       margin-top: 30px; }
@@ -125,6 +125,8 @@ main.projects {
       max-width: 85%; }
     main.projects img.small {
       max-width: 70%; }
+    main.projects img.whiteboard {
+      margin-top: 20px; }
   main.projects .text {
     margin: 10px 0px 60px; }
     main.projects .text.tight {

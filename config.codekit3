@@ -190,6 +190,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/assets/images/projects/s4g-tilt.jpg": {
+		"ft": 16384,
+		"iS": 255627,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/projects/s4g-tilt.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/assets/images/projects/s4g.jpg": {
 		"ft": 16384,
 		"iS": 259994,
