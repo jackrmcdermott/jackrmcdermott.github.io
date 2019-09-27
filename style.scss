@@ -19,11 +19,11 @@ body {
 }
 
 a {
-	//color: $blue;
 	text-decoration: none;
 
 	&:hover {
 		color: $blue;
+		cursor: pointer;
 		text-decoration: none;
 	}
 	&:active {
@@ -35,6 +35,10 @@ a {
 		text-decoration: none;
 	}
 
+}
+
+img {
+	border-radius: 3px;
 }
 
 
@@ -83,6 +87,7 @@ p.sidebar-entry {
 	margin: 20px 0px 0px;
 	font-size: 1.1em;
 }
+
 
 .timeframe {
 	font-size: 0.8em;
@@ -196,7 +201,7 @@ main.projects {
 		}
 
 		&.whiteboard {
-			margin-top: 20px;
+			margin-top: 30px;
 		}
 	}
 
@@ -288,10 +293,13 @@ h5.date {
 	text-align: center;
 	margin: 3%;
 	width: 94%;
+	border-radius: 2px;
+	overflow: hidden;
 }
 
 .grid-item:hover .project-description {
   opacity: 1;
+  cursor: pointer;
 }
 
 

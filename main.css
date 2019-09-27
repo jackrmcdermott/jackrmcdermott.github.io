@@ -9,6 +9,7 @@ a {
   text-decoration: none; }
   a:hover {
     color: #3585f0;
+    cursor: pointer;
     text-decoration: none; }
   a:active {
     color: #3585f0;
@@ -16,6 +17,9 @@ a {
   a:focus {
     color: #3585f0;
     text-decoration: none; }
+
+img {
+  border-radius: 3px; }
 
 figure.filter-max {
   position: relative;
@@ -128,7 +132,7 @@ main.projects {
     main.projects img.small {
       max-width: 70%; }
     main.projects img.whiteboard {
-      margin-top: 20px; }
+      margin-top: 30px; }
   main.projects .text {
     margin: 10px 0px 60px; }
     main.projects .text.tight {
@@ -192,10 +196,13 @@ h5.date {
   background: rgba(255, 255, 255, 0.9);
   text-align: center;
   margin: 3%;
-  width: 94%; }
+  width: 94%;
+  border-radius: 2px;
+  overflow: hidden; }
 
 .grid-item:hover .project-description {
-  opacity: 1; }
+  opacity: 1;
+  cursor: pointer; }
 
 .project-text-inner h3 {
   font-size: 1.7em;
