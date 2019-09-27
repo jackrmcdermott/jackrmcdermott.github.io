@@ -111,7 +111,7 @@ main.projects {
       border-bottom: 3px solid #3585f0;
       color: #1d77ee; }
   main.projects section.project {
-    margin: 20px 0px 0px;
+    margin: 10px 0px 0px;
     display: inline-block; }
     main.projects section.project#panoramaed {
       margin-top: 30px; }
@@ -122,7 +122,7 @@ main.projects {
     main.projects section.project#fluently {
       margin-top: 0px; }
     main.projects section.project#politics {
-      margin-top: 50px; }
+      margin-top: 40px; }
   main.projects img {
     padding: 15px; }
     main.projects img.square {
