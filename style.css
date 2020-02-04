@@ -91,13 +91,14 @@ ul.nav {
   display: none; }
 
 main.projects {
-  margin-bottom: 60px; }
+  margin-bottom: 50px; }
   @media (min-width: 768px) {
     main.projects {
       margin-left: 240px; } }
   @media (min-width: 992px) {
     main.projects {
-      padding: 50px; } }
+      padding: 50px;
+      padding-top: 30px; } }
   main.projects section.main {
     padding: 30px 0px; }
   main.projects strong {
@@ -114,15 +115,15 @@ main.projects {
     margin: 10px 0px 0px;
     display: inline-block; }
     main.projects section.project#panoramaed {
-      margin-top: 30px; }
-    main.projects section.project#gettoknowyou {
       margin-top: 0px; }
+    main.projects section.project#gettoknowyou {
+      margin-top: -10px; }
     main.projects section.project#speech4god {
       margin-top: 0px; }
     main.projects section.project#fluently {
-      margin-top: 0px; }
+      margin-top: 10px; }
     main.projects section.project#politics {
-      margin-top: 40px; }
+      margin-top: 30px; }
   main.projects img {
     padding: 15px; }
     main.projects img.square {
@@ -131,16 +132,28 @@ main.projects {
       max-width: 70%; }
     main.projects img.whiteboard {
       margin-top: 30px; }
+    main.projects img.video-play:hover {
+      opacity: 0.9;
+      -webkit-transition: all .15s ease-in-out;
+      -o-transition: all .15s ease-in-out;
+      transition: all .15s ease-in-out; }
   main.projects .text {
-    margin: 10px 0px 60px; }
+    margin: 10px 0px 30px; }
     main.projects .text.tight {
-      margin-bottom: 20px; }
+      margin-bottom: 15px; }
+  main.projects h3.section-title {
+    font-size: 1em;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    margin: 10px 0px 15px;
+    color: #61748c;
+    text-transform: uppercase; }
   main.projects p.paragraph {
     font-size: 1.3em;
     line-height: 1.7em;
     font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
     font-weight: 400;
-    margin: 10px 0px 20px; }
+    margin: 10px 0px 15px; }
 
 h2.header {
   margin-top: 10px;
@@ -203,7 +216,7 @@ h5.date {
   cursor: pointer; }
 
 .project-text-inner h3 {
-  font-size: 1.7em;
+  font-size: 1.45em;
   color: #3585f0; }
 
 .project-text-inner p {

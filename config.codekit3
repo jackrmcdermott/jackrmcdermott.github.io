@@ -104,7 +104,7 @@
 		},
 	"/assets/images/projects/dash.jpg": {
 		"ft": 16384,
-		"iS": 143196,
+		"iS": 121527,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/images/projects/dash.jpg",
@@ -163,6 +163,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/images/projects/ipad.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/assets/images/projects/pano-vid-play.jpg": {
+		"ft": 16384,
+		"iS": 58277,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/projects/pano-vid-play.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -236,7 +247,7 @@
 		},
 	"/assets/images/projects/sized2.jpg": {
 		"ft": 16384,
-		"iS": 138465,
+		"iS": 140595,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/images/projects/sized2.jpg",
@@ -247,7 +258,7 @@
 		},
 	"/assets/images/projects/sized3.jpg": {
 		"ft": 16384,
-		"iS": 127945,
+		"iS": 147528,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/images/projects/sized3.jpg",
