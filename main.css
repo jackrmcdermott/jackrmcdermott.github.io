@@ -265,11 +265,11 @@ h5.date {
   p.mobile-welcome {
     display: inline-block;
     font-size: 1.3em;
-    line-height: 1.35em;
+    line-height: 1.4em;
     padding: 0px 20px 30px 12px; }
     p.mobile-welcome strong {
-      font-size: 1.1em;
-      margin: 20px 0px 5px;
+      font-size: 1.15em;
+      margin: 25px 0px 5px;
       display: inline-block; }
   .sidebar {
     padding-left: 30px; }
