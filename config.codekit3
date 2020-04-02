@@ -104,7 +104,7 @@
 		},
 	"/assets/images/projects/dash.jpg": {
 		"ft": 16384,
-		"iS": 121527,
+		"iS": 143196,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/images/projects/dash.jpg",
@@ -115,7 +115,7 @@
 		},
 	"/assets/images/projects/driver.jpg": {
 		"ft": 16384,
-		"iS": 130336,
+		"iS": 96699,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/images/projects/driver.jpg",
@@ -317,8 +317,8 @@
 		"oA": 0,
 		"oAP": "/assets/images/projects/whiteboard.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
