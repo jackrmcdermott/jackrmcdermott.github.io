@@ -209,7 +209,18 @@
 		"oAP": "/assets/images/projects/s4g-tilt.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/assets/images/projects/s4g-tilt.png": {
+		"ft": 32768,
+		"iS": 294558,
+		"oA": 0,
+		"oAP": "/assets/images/projects/s4g-tilt.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"/assets/images/projects/s4g.jpg": {
@@ -298,6 +309,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/projects/whiteboard.png": {
+		"ft": 32768,
+		"iS": 500694,
+		"oA": 0,
+		"oAP": "/assets/images/projects/whiteboard.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/CNAME": {

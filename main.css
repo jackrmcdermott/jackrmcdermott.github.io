@@ -2,6 +2,7 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 body {
   color: #1a1b26;
+  background-color: #fafafa;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: antialiased; }
 
@@ -35,6 +36,9 @@ figure.filter-light {
   position: relative;
   -webkit-filter: contrast(94%) brightness(115%) saturate(110%);
   filter: contrast(94%) brightness(115%) saturate(110%); }
+
+.sidebar {
+  background-color: #fafafa; }
 
 .site-brand {
   color: #3585f0;
@@ -129,11 +133,9 @@ main.projects {
   main.projects img {
     padding: 15px; }
     main.projects img.square {
-      max-width: 85%; }
+      max-width: 90%; }
     main.projects img.small {
       max-width: 70%; }
-    main.projects img.whiteboard {
-      margin-top: 30px; }
     main.projects img.video-play:hover {
       opacity: 0.9;
       -webkit-transition: all .15s ease-in-out;

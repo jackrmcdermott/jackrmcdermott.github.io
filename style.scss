@@ -5,6 +5,7 @@
 $blue: #3585f0;
 $black: #1a1b26;
 $gray: #61748c;
+$bg: #fafafa; 
 
 $sans: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 $cabin: 'Cabin',  Helvetica, Arial, sans-serif;
@@ -13,6 +14,7 @@ $cabin: 'Cabin',  Helvetica, Arial, sans-serif;
 
 body {
 	color: $black;
+	background-color: $bg;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: antialiased;
 
@@ -62,6 +64,10 @@ figure.filter-light {
 
 // Navbar
 
+.sidebar {
+	background-color: $bg;
+}
+
 .site-brand {
 	color: $blue;
 	font-size: 2.0em;
@@ -87,7 +93,6 @@ p.sidebar-entry {
 	margin: 20px 0px 0px;
 	font-size: 1.1em;
 }
-
 
 .timeframe {
 	font-size: 0.8em;
@@ -194,7 +199,7 @@ main.projects {
 		padding: 15px;
 
 		&.square {
-			max-width: 85%;
+			max-width: 90%;
 		}
 
 		&.small {
@@ -202,7 +207,7 @@ main.projects {
 		}
 
 		&.whiteboard {
-			margin-top: 30px;
+			//margin-top: 30px;
 		}
 
 		&.video-play:hover {
