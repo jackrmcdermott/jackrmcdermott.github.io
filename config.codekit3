@@ -102,9 +102,20 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/assets/images/projects/class.jpg": {
+		"ft": 16384,
+		"iS": 107779,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/projects/class.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/assets/images/projects/dash.jpg": {
 		"ft": 16384,
-		"iS": 143196,
+		"iS": 121527,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/images/projects/dash.jpg",
@@ -133,6 +144,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/projects/graph.png": {
+		"ft": 32768,
+		"iS": 78676,
+		"oA": 0,
+		"oAP": "/assets/images/projects/graph.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"/assets/images/projects/green.jpg": {
@@ -190,26 +212,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/assets/images/projects/red.jpg": {
-		"ft": 16384,
-		"iS": 164716,
-		"jF": 0,
+	"/assets/images/projects/report.png": {
+		"ft": 32768,
+		"iS": 561088,
 		"oA": 0,
-		"oAP": "/assets/images/projects/red.jpg",
+		"oAP": "/assets/images/projects/report.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/assets/images/projects/s4g-tilt.jpg": {
-		"ft": 16384,
-		"iS": 255627,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/images/projects/s4g-tilt.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/assets/images/projects/s4g-tilt.png": {
@@ -221,28 +232,6 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
-		"q": 100
-		},
-	"/assets/images/projects/s4g.jpg": {
-		"ft": 16384,
-		"iS": 259994,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/images/projects/s4g.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/images/projects/shelf.jpg": {
-		"ft": 16384,
-		"iS": 183513,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/images/projects/shelf.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"/assets/images/projects/sized1.jpg": {
