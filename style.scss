@@ -122,9 +122,15 @@ ul.nav {
 
 .nav-footer-social-buttons > a {
 	color: $blue;
+	font-size: 1.15em;
+	margin-right: 10px;
 	-webkit-transition: all .2s ease-in-out;
   	-o-transition: all .2s ease-in-out;
   	transition: all .2s ease-in-out;
+
+  	&:hover {
+  		opacity: 0.8;
+  	}
 }
 
 .sidebar.open {
@@ -268,8 +274,8 @@ main.writing {
 }
 
 div.writing-post {
-	margin: 0px 0px;
-	padding: 8px 35px 14px;
+	margin: 0px 0px 10px;
+	padding: 12px 32px 25px;
 	border-radius: 6px;
 	display: inline-block;
 	-webkit-transition: all .15s ease-in-out;
@@ -305,6 +311,7 @@ h5.date {
 	opacity: 0.7;
 	font-family: $sans;
 	margin-top: 5px;
+	display: none;
 }
 
 

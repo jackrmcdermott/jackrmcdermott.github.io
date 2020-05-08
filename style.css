@@ -84,9 +84,13 @@ ul.nav {
 
 .nav-footer-social-buttons > a {
   color: #3585f0;
+  font-size: 1.15em;
+  margin-right: 10px;
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out; }
+  .nav-footer-social-buttons > a:hover {
+    opacity: 0.8; }
 
 .sidebar.open {
   top: 0px; }
@@ -172,8 +176,8 @@ main.writing {
   margin-bottom: 40px; }
 
 div.writing-post {
-  margin: 0px 0px;
-  padding: 8px 35px 14px;
+  margin: 0px 0px 10px;
+  padding: 12px 32px 25px;
   border-radius: 6px;
   display: inline-block;
   -webkit-transition: all .15s ease-in-out;
@@ -203,7 +207,8 @@ h5.date {
   color: #61748c;
   opacity: 0.7;
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-  margin-top: 5px; }
+  margin-top: 5px;
+  display: none; }
 
 .grid-item .project-description {
   background: rgba(255, 255, 255, 0.9);
