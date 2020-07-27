@@ -91,6 +91,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/assets/images/fluently-1.jpg": {
+		"ft": 16384,
+		"iS": 209076,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/fluently-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/assets/images/gtky.jpg": {
 		"ft": 16384,
 		"iS": 276350,
@@ -317,6 +328,39 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/images/projects/square.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/assets/images/projects/tf-1.jpg": {
+		"ft": 16384,
+		"iS": 291239,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/projects/tf-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/projects/tf-2.png": {
+		"ft": 32768,
+		"iS": 322090,
+		"oA": 0,
+		"oAP": "/assets/images/projects/tf-2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/images/projects/tf-logo.jpg": {
+		"ft": 16384,
+		"iS": 22251,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/projects/tf-logo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,

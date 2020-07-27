@@ -122,16 +122,17 @@ main.projects {
   main.projects section.project {
     margin: 10px 0px 0px;
     display: inline-block; }
-    main.projects section.project#panoramaed {
-      margin-top: 0px; }
-    main.projects section.project#gettoknowyou {
-      margin-top: -10px; }
-    main.projects section.project#speech4god {
-      margin-top: 0px; }
-    main.projects section.project#fluently {
+    main.projects section.project#thinkful {
       margin-top: 10px; }
-    main.projects section.project#politics {
+    main.projects section.project#panoramaed {
       margin-top: 30px; }
+    main.projects section.project#gettoknowyou {
+      margin-top: 10px; }
+    main.projects section.project#speech4god {
+      margin-top: 10px; }
+    main.projects section.project#fluently {
+      margin-top: 10px;
+      margin-bottom: 50px; }
   main.projects img {
     padding: 15px; }
     main.projects img.square {
@@ -159,7 +160,7 @@ main.projects {
     line-height: 1.7em;
     font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
     font-weight: 400;
-    margin: 10px 0px 15px; }
+    margin: 10px 0px 30px; }
 
 h2.header {
   margin-top: 10px;

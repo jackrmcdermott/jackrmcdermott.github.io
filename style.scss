@@ -181,24 +181,25 @@ main.projects {
 		margin: 10px 0px 0px;
 		display: inline-block;
 		
+		&#thinkful {
+			margin-top: 10px; 
+		}
 		&#panoramaed {
-			margin-top: 0px; 
+			margin-top: 30px; 
 		}
 		&#gettoknowyou {
-			margin-top: -10px;
+			margin-top: 10px;
 		}
 
 		&#speech4god {
-			margin-top: 0px;
+			margin-top: 10px;
 		}
 
 		&#fluently {
 			margin-top: 10px;
+			margin-bottom: 50px;
 		}
 
-		&#politics {
-			margin-top: 30px;
-		}
 	}
 
 	img {
@@ -246,7 +247,7 @@ main.projects {
 		line-height: 1.7em;
 		font-family: $sans;
 		font-weight: 400;
-		margin: 10px 0px 15px;
+		margin: 10px 0px 30px;
 	}
 }
 
