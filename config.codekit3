@@ -113,17 +113,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/assets/images/projects/.tf-2~imageoptim.png": {
-		"ft": 32768,
-		"iS": 99345,
-		"oA": 0,
-		"oAP": "/assets/images/projects/.tf-2~imageoptim.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/assets/images/projects/class.jpg": {
 		"ft": 16384,
 		"iS": 107779,
@@ -357,12 +346,12 @@
 		},
 	"/assets/images/projects/tf-2.png": {
 		"ft": 32768,
-		"iS": 322090,
+		"iS": 99345,
 		"oA": 0,
-		"oAP": "/assets/images/projects/tf-2.png",
+		"oAP": "/assets/images/projects/.tf-2~imageoptim.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
