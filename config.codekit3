@@ -113,6 +113,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/assets/images/projects/.tf-2~imageoptim.png": {
+		"ft": 32768,
+		"iS": 99345,
+		"oA": 0,
+		"oAP": "/assets/images/projects/.tf-2~imageoptim.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/images/projects/class.jpg": {
 		"ft": 16384,
 		"iS": 107779,
@@ -212,15 +223,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/assets/images/projects/ipad.jpg": {
-		"ft": 16384,
-		"iS": 136333,
-		"jF": 0,
+	"/assets/images/projects/ipad.png": {
+		"ft": 32768,
+		"iS": 511355,
 		"oA": 0,
-		"oAP": "/assets/images/projects/ipad.jpg",
+		"oAP": "/assets/images/projects/ipad.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/assets/images/projects/pano-vid-play.jpg": {
