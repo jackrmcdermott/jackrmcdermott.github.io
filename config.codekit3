@@ -80,23 +80,23 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/assets/images/4.jpg": {
-		"ft": 16384,
-		"iS": 69938,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/images/4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/assets/images/fluently-1.jpg": {
 		"ft": 16384,
 		"iS": 209076,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/images/fluently-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/fluently.jpg": {
+		"ft": 16384,
+		"iS": 69938,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/fluently.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -346,12 +346,12 @@
 		},
 	"/assets/images/projects/tf-2.png": {
 		"ft": 32768,
-		"iS": 99345,
+		"iS": 322090,
 		"oA": 0,
-		"oAP": "/assets/images/projects/.tf-2~imageoptim.png",
+		"oAP": "/assets/images/projects/tf-2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -386,6 +386,17 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"/assets/images/thinkful.jpg": {
+		"ft": 16384,
+		"iS": 118063,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/thinkful.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/CNAME": {
