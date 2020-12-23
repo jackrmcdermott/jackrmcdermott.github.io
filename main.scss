@@ -4562,9 +4562,10 @@ main {
   text-decoration: none; }
 
 .nav-footer {
-  position: absolute;
+  //position: absolute;
+  //border: 1px solid red; //NAV ICON FOOTER FIX JACK
   bottom: 0;
-  padding-bottom: 30px; }
+  padding: 25px 0px 0px; }
 
 .nav-footer a,
 .nav > li > a {
