@@ -399,6 +399,50 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/assets/in.png": {
+		"ft": 32768,
+		"iS": 4830,
+		"oA": 0,
+		"oAP": "/assets/in.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/medium.png": {
+		"ft": 32768,
+		"iS": 5190,
+		"oA": 0,
+		"oAP": "/assets/medium.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/profile.jpg": {
+		"ft": 16384,
+		"iS": 13671,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/profile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/tw.png": {
+		"ft": 32768,
+		"iS": 5009,
+		"oA": 0,
+		"oAP": "/assets/tw.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/CNAME": {
 		"cB": 0,
 		"ft": 8192,
