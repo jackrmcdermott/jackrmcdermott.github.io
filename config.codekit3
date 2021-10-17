@@ -113,6 +113,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/assets/images/projects/chegg-tests.png": {
+		"ft": 32768,
+		"iS": 516940,
+		"oA": 0,
+		"oAP": "/assets/images/projects/chegg-tests.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/images/projects/chegg-tests2.png": {
+		"ft": 32768,
+		"iS": 579234,
+		"oA": 0,
+		"oAP": "/assets/images/projects/chegg-tests2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/images/projects/chegg-wide.png": {
 		"ft": 32768,
 		"iS": 880970,
