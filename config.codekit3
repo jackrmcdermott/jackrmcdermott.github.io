@@ -36,17 +36,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/images/1.jpg": {
-		"ft": 16384,
-		"iS": 1480892,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/images/1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/assets/images/15.jpg": {
 		"ft": 16384,
 		"iS": 61508,
@@ -69,12 +58,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/assets/images/23.jpg": {
+	"/assets/images/chegg.jpg": {
 		"ft": 16384,
-		"iS": 1725816,
+		"iS": 284373,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/images/23.jpg",
+		"oAP": "/assets/images/chegg.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -111,6 +100,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/panorama.jpg": {
+		"ft": 16384,
+		"iS": 1725816,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/panorama.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/projects/chegg-wide.png": {
+		"ft": 32768,
+		"iS": 882138,
+		"oA": 0,
+		"oAP": "/assets/images/projects/chegg-wide.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/assets/images/projects/class.jpg": {
@@ -386,6 +397,17 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"/assets/images/s4g.jpg": {
+		"ft": 16384,
+		"iS": 1480892,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/s4g.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/assets/images/thinkful.jpg": {
