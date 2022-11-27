@@ -123,19 +123,24 @@ main.projects {
   main.projects section.project {
     margin: 10px 0px 0px;
     display: inline-block; }
-    main.projects section#thinkful.project {
+    main.projects section.project#thinkful {
       margin-top: 0px; }
-    main.projects section#panoramaed.project {
+    main.projects section.project#panoramaed {
       margin-top: 30px; }
-    main.projects section#gettoknowyou.project {
+    main.projects section.project#gettoknowyou {
       margin-top: 10px; }
-    main.projects section#speech4god.project {
+    main.projects section.project#speech4god {
       margin-top: 40px; }
-    main.projects section#fluently.project {
+    main.projects section.project#fluently {
       margin-top: 10px;
       margin-bottom: 20px; }
+    main.projects section.project .thirds {
+      padding-left: 10px;
+      padding-right: 10px; }
   main.projects img {
     padding: 15px; }
+    main.projects img.featured-image {
+      max-width: 100%; }
     main.projects img.square {
       max-width: 90%; }
     main.projects img.small {
@@ -299,13 +304,13 @@ h5.date {
     main.projects section.project {
       margin: 30px 0px 0px;
       display: inline-block; }
-      main.projects section#gettoknowyou.project {
+      main.projects section.project#gettoknowyou {
         margin-top: 0px; }
-      main.projects section#speech4god.project {
+      main.projects section.project#speech4god {
         margin-top: 0px; }
-      main.projects section#fluently.project {
+      main.projects section.project#fluently {
         margin-top: 0px; }
-      main.projects section#politics.project {
+      main.projects section.project#politics {
         margin-top: 0px; }
     main.projects img {
       padding: 15px; }

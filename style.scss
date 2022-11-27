@@ -41,7 +41,7 @@ a {
 
 img {
 	border-radius: 3px;
-}
+} 
 
 
 figure.filter-max {
@@ -200,11 +200,19 @@ main.projects {
 			margin-top: 10px;
 			margin-bottom: 20px;
 		}
+		.thirds {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
 
 	}
 
 	img {
 		padding: 15px;
+
+		&.featured-image {
+			max-width: 100%; 
+		}
 
 		&.square {
 			max-width: 90%;
