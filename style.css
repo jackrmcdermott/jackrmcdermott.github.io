@@ -145,6 +145,9 @@ main.projects {
       max-width: 90%; }
     main.projects img.small {
       max-width: 70%; }
+    main.projects img.whiteboard {
+      max-width: 90%;
+      margin-top: 15px; }
     main.projects img.video-play:hover {
       opacity: 0.9;
       -webkit-transition: all .15s ease-in-out;

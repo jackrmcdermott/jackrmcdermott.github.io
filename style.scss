@@ -223,7 +223,8 @@ main.projects {
 		}
 
 		&.whiteboard {
-			//margin-top: 30px;
+			max-width: 90%;
+			margin-top: 15px;
 		}
 
 		&.video-play:hover {
