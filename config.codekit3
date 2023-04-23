@@ -150,6 +150,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/projects\/chegg-skills.png" : {
+      "ft" : 32768,
+      "iS" : 105586,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/projects\/chegg-skills.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/projects\/chegg-tests.png" : {
       "ft" : 32768,
       "iS" : 516940,
