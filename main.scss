@@ -1,10 +1,15 @@
 @import "style.scss";
 
-$sans: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+$sans: 'Source Sans 3', Helvetica, Arial, sans-serif;
 $cabin: 'Cabin',  Helvetica, Arial, sans-serif;
+$outfit: 'Outfit', Helvetica, Arial, sans-serif;
 
-@import url(https://fonts.googleapis.com/css?family=Cabin:400,600,700|Source+Sans+Pro:300,400,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+3:400,600,700);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Outfit);
+
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -4504,7 +4509,7 @@ main {
 
 @media (min-width: 768px) {
   main {
-    margin-left: 260px; } }
+    margin-left: 290px; } }
 
 @media (min-width: 992px) {
   main {
@@ -4535,8 +4540,7 @@ main {
 
 @media (min-width: 768px) {
   .sidebar {
-    padding: 30px;
-    padding-right: 20px;
+    padding: 20px 10px 0px 30px;
     left: 0;
     top: 0; } }
 
@@ -4549,9 +4553,8 @@ main {
   margin-bottom: 6px; }
 
 .site-brand {
-  color: #000;
   font-family: $cabin;
-  font-size: 18px;
+  font-size: 30px;
   font-weight: 700;
   display: block;
   -webkit-transition: all .2s linear;
@@ -4567,15 +4570,6 @@ main {
   bottom: 0;
   padding: 25px 0px 0px; }
 
-.nav-footer a,
-.nav > li > a {
-  color: #000; }
-
-.nav > li > a.active {
-  font-weight: 700; }
-
-.nav > li > a:hover {
-  color: $blue; }
 
 .nav-footer-social-buttons {
   margin-bottom: 0;

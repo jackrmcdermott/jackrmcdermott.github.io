@@ -1,6 +1,6 @@
 body {
   color: #1a1b26;
-  background-color: #fafafa;
+  background-color: #fcfcfc;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: antialiased; }
 
@@ -36,11 +36,12 @@ figure.filter-light {
   filter: contrast(94%) brightness(115%) saturate(110%); }
 
 .sidebar {
-  background-color: #fafafa; }
+  background-color: #fcfcfc;
+  font-size: 1.05em; }
 
 .site-brand {
   color: #3585f0;
-  font-size: 2.0em;
+  font-size: 2.15em;
   font-weight: bold;
   margin: 0px 0px 10px;
   font-variant: small-caps; }
@@ -53,40 +54,36 @@ figure.filter-light {
 
 .site-tagline {
   margin-bottom: 20px;
-  line-height: 1.5em;
-  font-size: 1.1em;
-  padding-right: 10px; }
+  line-height: 1.5em; }
 
 p.sidebar-entry {
-  margin: 20px 0px 0px;
-  font-size: 1.1em; }
+  margin: 35px 0px 35px; }
 
 .timeframe {
-  font-size: 0.8em;
-  font-weight: 600;
+  font-size: 0.75em;
+  font-weight: 700;
   letter-spacing: 0.03em;
   margin-top: 10px;
-  opacity: 0.9;
+  opacity: 0.7;
   text-transform: uppercase;
   color: #61748c; }
 
-ul.nav {
-  margin-top: 10px;
-  font-size: 1.2em;
-  line-height: 1.5em; }
-
 .nav > li > a {
+  line-height: 2em;
+  font-size: 1.2em;
+  color: #1a1b26;
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out; }
   .nav > li > a.active {
     color: #3585f0;
-    font-weight: 600; }
+    font-weight: 800;
+    opacity: 1.0; }
 
 .nav-footer-social-buttons > a {
   color: #3585f0;
   font-size: 1.15em;
-  margin-right: 10px;
+  margin-right: 0px;
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out; }
@@ -99,6 +96,11 @@ ul.nav {
 .mobile-welcome {
   display: none; }
 
+#hello {
+  font-size: 1.3em;
+  margin: 15px 0px;
+  display: inline-block; }
+
 main.projects {
   margin-bottom: 50px; }
   @media (min-width: 768px) {
@@ -106,7 +108,7 @@ main.projects {
       margin-left: 240px; } }
   @media (min-width: 992px) {
     main.projects {
-      padding: 50px;
+      padding: 100px;
       padding-top: 30px; } }
   main.projects section.main {
     padding: 30px 0px; }
@@ -121,7 +123,7 @@ main.projects {
       border-bottom: 3px solid #3585f0;
       color: #1d77ee; }
   main.projects section.project {
-    margin: 10px 0px 0px;
+    margin: 0px 0px 0px;
     display: inline-block; }
     main.projects section.project#thinkful {
       margin-top: 0px; }
@@ -158,16 +160,17 @@ main.projects {
     main.projects .text.tight {
       margin-bottom: 15px; }
   main.projects h3.section-title {
-    font-size: 1em;
+    font-size: .9em;
     font-weight: 800;
     letter-spacing: 0.03em;
     margin: 10px 0px 15px;
+    opacity: 0.8;
     color: #61748c;
     text-transform: uppercase; }
   main.projects p.paragraph {
     font-size: 1.3em;
     line-height: 1.7em;
-    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-family: "Source Sans 3", Helvetica, Arial, sans-serif;
     font-weight: 400;
     margin: 10px 0px 30px; }
 
@@ -216,28 +219,35 @@ h5.date {
   text-transform: uppercase;
   color: #61748c;
   opacity: 0.7;
-  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans 3", Helvetica, Arial, sans-serif;
   margin-top: 5px;
   display: none; }
 
 .grid-item .project-description {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(0, 0, 0, 0.4);
   text-align: center;
-  margin: 3%;
-  width: 94%;
+  margin: 0%;
+  width: 100%;
   border-radius: 2px;
   overflow: hidden; }
+
+.grid-item:hover {
+  transform: scale(1.01);
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out; }
 
 .grid-item:hover .project-description {
   opacity: 1;
   cursor: pointer; }
 
 .project-text-inner h3 {
-  font-size: 1.45em;
-  color: #3585f0; }
+  font-size: 1.6em;
+  color: white;
+  font-weight: 900; }
 
 .project-text-inner p {
-  color: #1a1b26;
+  color: white;
   width: 90%;
   font-size: 1.2em;
   font-weight: 500;
@@ -301,7 +311,7 @@ h5.date {
   .nav-footer-social-buttons > a {
     font-size: 1.3em;
     margin-left: 0px;
-    margin-right: 10px; }
+    margin-right: 2px; }
   main.projects {
     margin: 10px 0px 60px; }
     main.projects section.project {
@@ -337,5 +347,5 @@ h5.date {
     max-width: 1100px;
     margin-left: 300px; }
   .sidebar {
-    padding-top: 42px;
+    padding-top: 40px;
     padding-right: 0px; } }

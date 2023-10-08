@@ -5,10 +5,13 @@
 $blue: #3585f0;
 $black: #1a1b26;
 $gray: #61748c;
-$bg: #fafafa; 
+$bg: #fcfcfc; 
 
-$sans: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+$sans: 'Source Sans 3', Helvetica, Arial, sans-serif;
 $cabin: 'Cabin',  Helvetica, Arial, sans-serif;
+$outfit: 'Outfit', Helvetica, Arial, sans-serif;
+
+
 
 // Global Styles
 
@@ -62,15 +65,17 @@ figure.filter-light {
   filter: contrast(94%) brightness(115%) saturate(110%);
 }
 
+
 // Navbar
 
 .sidebar {
 	background-color: $bg;
+	font-size: 1.05em;
 }
 
 .site-brand {
 	color: $blue;
-	font-size: 2.0em;
+	font-size: 2.15em;
 	font-weight: bold;
 	margin: 0px 0px 10px;
 	font-variant: small-caps;
@@ -86,45 +91,43 @@ figure.filter-light {
 .site-tagline {
 	margin-bottom: 20px;
 	line-height: 1.5em;
-	font-size: 1.1em;
-	padding-right: 10px;
+
 }
 
 p.sidebar-entry {
-	margin: 20px 0px 0px;
-	font-size: 1.1em;
+	margin: 35px 0px 35px;
 }
 
 .timeframe {
-	font-size: 0.8em;
-	font-weight: 600;
+	font-size: 0.75em;
+	font-weight: 700;
 	letter-spacing: 0.03em;
 	margin-top: 10px;
-	opacity: 0.9;
+	opacity: 0.7;
 	text-transform: uppercase;
 	color: $gray;
 }
 
-ul.nav {
-	margin-top: 10px;
-	font-size: 1.2em;
-	line-height: 1.5em;
-}
 
 .nav > li > a {
+	line-height: 2em;
+	font-size: 1.2em;
+	color: $black;
+
 	-webkit-transition: all .2s ease-in-out;
   	-o-transition: all .2s ease-in-out;
   	transition: all .2s ease-in-out;
 	&.active {
 		color: $blue;
-		font-weight: 600; 
+		font-weight: 800; 
+		opacity: 1.0;
 	}
 }
 
 .nav-footer-social-buttons > a {
 	color: $blue;
 	font-size: 1.15em;
-	margin-right: 10px;
+	margin-right: 0px;
 	-webkit-transition: all .2s ease-in-out;
   	-o-transition: all .2s ease-in-out;
   	transition: all .2s ease-in-out;
@@ -143,6 +146,12 @@ ul.nav {
 	display: none;
 }
 
+	#hello {
+		font-size: 1.3em;
+		margin: 15px 0px;
+		display: inline-block;
+	}
+
 
 
 // Projects 
@@ -154,7 +163,7 @@ main.projects {
     	margin-left: 240px; 
 	}
 	@media (min-width: 992px) {
-    	padding: 50px;
+    	padding: 100px;
     	padding-top: 30px;
     }
 
@@ -179,7 +188,7 @@ main.projects {
 	}
 	
 	section.project {
-		margin: 10px 0px 0px;
+		margin: 0px 0px 0px;
 		display: inline-block;
 		
 		&#thinkful {
@@ -244,10 +253,11 @@ main.projects {
 	}
 
 	h3.section-title {
-		font-size: 1em;
+			font-size: .9em;
 	    font-weight: 800;
 	    letter-spacing: 0.03em;
 	    margin: 10px 0px 15px;
+	    opacity: 0.8;
 	    color: $gray;
 	    text-transform: uppercase;
 	}
@@ -329,12 +339,19 @@ h5.date {
 // Project Tiles
 
 .grid-item .project-description {
-	background: rgba(255, 255, 255, 0.9);
+	background: rgba(0, 0, 0, 0.4);
 	text-align: center;
-	margin: 3%;
-	width: 94%;
+	margin: 0%;
+	width: 100%;
 	border-radius: 2px;
 	overflow: hidden;
+}
+
+.grid-item:hover {
+	transform: scale(1.01);
+		-webkit-transition: all .3s ease-in-out;
+  	-o-transition: all .3s ease-in-out;
+  	transition: all .3s ease-in-out;
 }
 
 .grid-item:hover .project-description {
@@ -344,13 +361,15 @@ h5.date {
 
 
 .project-text-inner {
+
 	h3 {
-		font-size: 1.45em;
-		color: $blue;
+		font-size: 1.6em;
+		color: white;
+		font-weight: 900;
 	}
 
 	p {
-		color: $black;
+		color: white;
 		width: 90%;
 		font-size: 1.2em;
 		font-weight: 500;
@@ -442,7 +461,7 @@ and (max-device-width : 680px) {
 	.nav-footer-social-buttons > a {
 		font-size: 1.3em;
 		margin-left: 0px;
-		margin-right: 10px;
+		margin-right: 2px;
 	}
 	
 	main.projects {
@@ -509,7 +528,7 @@ and (min-device-width : 1480px) {
 	}
 
 	.sidebar {
-		padding-top: 42px;
+		padding-top: 40px;
 		padding-right: 0px;
 	}
 }
