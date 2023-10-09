@@ -4402,7 +4402,7 @@ button.close {
 
 .grid {
   width: 100%;
-  margin-top: -11px; }
+  }
 
 .grid-overlay {
   position: absolute;
@@ -4519,7 +4519,7 @@ main {
   position: fixed;
   top: 0;
   bottom: 0;
-  width: 260px;
+  //width: 260px;
   height: auto;
   overflow-x: hidden;
   overflow-y: auto;
