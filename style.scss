@@ -422,7 +422,7 @@ and (max-device-width : 680px) {
 	}
 	.sidebar.open {
 		z-index: 1;
-		background: white;
+		background: $bg; 
 		box-shadow: 2px 0 3px 0 rgba(167,167,167,0.32);
 	}
 	p.sidebar-entry, ul.nav {
@@ -442,6 +442,8 @@ and (max-device-width : 680px) {
 
 	.sidebar {
 		padding-left: 30px;
+		width: fit-content;
+		padding-right: 50px;
 	}
 
 	ul.nav > li {

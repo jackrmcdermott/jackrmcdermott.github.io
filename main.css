@@ -290,7 +290,7 @@ h5.date {
     font-size: 15px; }
   .sidebar.open {
     z-index: 1;
-    background: white;
+    background: #fcfcfc;
     box-shadow: 2px 0 3px 0 rgba(167, 167, 167, 0.32); }
   p.sidebar-entry, ul.nav {
     font-size: 1.3em;
@@ -303,7 +303,9 @@ h5.date {
   main.welcome {
     padding-bottom: 100px; }
   .sidebar {
-    padding-left: 30px; }
+    padding-left: 30px;
+    width: fit-content;
+    padding-right: 50px; }
   ul.nav > li {
     margin: 0px 0px 0px;
     padding: 10px 0px; }
@@ -4858,6 +4860,7 @@ main {
   position: fixed;
   top: 0;
   bottom: 0;
+  width: 290px;
   height: auto;
   overflow-x: hidden;
   overflow-y: auto;
