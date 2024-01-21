@@ -4519,7 +4519,7 @@ main {
   position: fixed;
   top: 0;
   bottom: 0;
-  width: 290px;
+  width: 275px;
   height: auto;
   overflow-x: hidden;
   overflow-y: auto;
@@ -4568,7 +4568,7 @@ main {
   //position: absolute;
   //border: 1px solid red; //NAV ICON FOOTER FIX JACK
   bottom: 0;
-  padding: 25px 0px 0px; }
+  padding: 60px 0px 0px; }
 
 
 .nav-footer-social-buttons {
@@ -4619,3 +4619,29 @@ main {
 .list-icons li {
   float: left;
   margin-right: 5px; }
+
+
+
+  // Update to grid sizing (Jan '24')
+
+@media (min-width: 768px) {
+  .grid-item,
+  .grid-sizer {
+    width: 47.5%; } }
+
+@media (min-width: 1200px) {
+  .grid-item,
+  .grid-sizer {
+    width: 29.5%; } }
+
+.gutter-sizer {
+  width: 3%; }
+
+.grid-item, .grid-sizer {
+  margin-bottom: 1%;
+}
+
+
+
+
+

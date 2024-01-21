@@ -70,12 +70,12 @@ figure.filter-light {
 
 .sidebar {
 	background-color: $bg;
-	font-size: 1.05em;
+	font-size: 1.1em;
 }
 
 .site-brand {
 	color: $blue;
-	font-size: 2.15em;
+	font-size: 2.2em;
 	margin: 0px 0px 10px;
 	font-variant: small-caps;
 }
@@ -83,7 +83,7 @@ figure.filter-light {
 //Mobile 
 .navbar-brand {
 	font-variant: small-caps;
-	font-size: 3em;
+	font-size: 3.1em;
 	font-weight: 600;
 	color: $blue;
 }
@@ -98,25 +98,23 @@ figure.filter-light {
 }
 
 p.sidebar-entry {
-	margin: 35px 0px 35px;
+	margin: 50px 0px;
 }
 
 .timeframe {
-	font-size: 0.75em;
-	font-weight: 700;
+	font-size: 0.9em;
+	font-weight: 600;
 	letter-spacing: 0.03em;
-	margin-top: 10px;
-	opacity: 0.7;
+	margin: 10px 0px;
+	opacity: 0.6;
 	text-transform: uppercase;
 	color: $gray;
 }
-
 
 .nav > li > a {
 	line-height: 2em;
 	font-size: 1.2em;
 	color: $black;
-
 	-webkit-transition: all .2s ease-in-out;
   	-o-transition: all .2s ease-in-out;
   	transition: all .2s ease-in-out;
@@ -142,7 +140,6 @@ p.sidebar-entry {
 
 .sidebar.open {
 	top: 0px;
-
 }
 
 .mobile-welcome {
@@ -198,10 +195,10 @@ main.projects {
 			margin-top: 0px; 
 		}
 		&#panoramaed {
-			margin-top: 30px; 
+			margin-top: 0px; 
 		}
 		&#gettoknowyou {
-			margin-top: 10px;
+			margin-top: 0px;
 		}
 
 		&#speech4god {
@@ -256,11 +253,11 @@ main.projects {
 	}
 
 	h3.section-title {
-			font-size: .9em;
+		font-size: 1.1em;
 	    font-weight: 800;
 	    letter-spacing: 0.03em;
-	    margin: 10px 0px 15px;
-	    opacity: 0.8;
+	    margin: 0px 0px 20px;
+	    opacity: 0.6;
 	    color: $gray;
 	    text-transform: uppercase;
 	}
@@ -271,6 +268,7 @@ main.projects {
 		font-family: $sans;
 		font-weight: 400;
 		margin: 10px 0px 30px;
+		max-width: 720px;
 	}
 }
 
@@ -366,15 +364,15 @@ h5.date {
 .project-text-inner {
 
 	h3 {
-		font-size: 1.6em;
+		font-size: 2em;
 		color: white;
 		font-weight: 900;
 	}
 
 	p {
 		color: white;
-		width: 90%;
-		font-size: 1.2em;
+		width: 85%;
+		font-size: 1.25em;
 		font-weight: 500;
 		line-height: 1.2em;
 		margin: 0 auto;
@@ -514,16 +512,19 @@ and (max-device-width : 680px) {
 	}
 }
 
+
+// Main Screen Sizer Width 
+
 @media only screen 
-and (min-device-width : 1480px) {
+and (min-device-width : 1580px) {
 	main.welcome {
-		max-width: 1400px;	
+		max-width: 1500px;	
 		margin-left: 300px;
 	}
 
 	main.projects {
+		max-width: 1400px;
 		margin-left: 300px;
-		max-width: 1200px;
 	}
 
 	main.writing {
@@ -536,7 +537,6 @@ and (min-device-width : 1480px) {
 		padding-right: 0px;
 	}
 }
-
 
 
 

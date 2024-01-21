@@ -41,17 +41,17 @@ figure.filter-light {
 
 .sidebar {
   background-color: #fcfcfc;
-  font-size: 1.05em; }
+  font-size: 1.1em; }
 
 .site-brand {
   color: #3585f0;
-  font-size: 2.15em;
+  font-size: 2.2em;
   margin: 0px 0px 10px;
   font-variant: small-caps; }
 
 .navbar-brand {
   font-variant: small-caps;
-  font-size: 3em;
+  font-size: 3.1em;
   font-weight: 600;
   color: #3585f0; }
 
@@ -63,14 +63,14 @@ figure.filter-light {
   line-height: 1.5em; }
 
 p.sidebar-entry {
-  margin: 35px 0px 35px; }
+  margin: 50px 0px; }
 
 .timeframe {
-  font-size: 0.75em;
-  font-weight: 700;
+  font-size: 0.9em;
+  font-weight: 600;
   letter-spacing: 0.03em;
-  margin-top: 10px;
-  opacity: 0.7;
+  margin: 10px 0px;
+  opacity: 0.6;
   text-transform: uppercase;
   color: #61748c; }
 
@@ -134,9 +134,9 @@ main.projects {
     main.projects section.project#thinkful {
       margin-top: 0px; }
     main.projects section.project#panoramaed {
-      margin-top: 30px; }
+      margin-top: 0px; }
     main.projects section.project#gettoknowyou {
-      margin-top: 10px; }
+      margin-top: 0px; }
     main.projects section.project#speech4god {
       margin-top: 40px; }
     main.projects section.project#fluently {
@@ -166,11 +166,11 @@ main.projects {
     main.projects .text.tight {
       margin-bottom: 15px; }
   main.projects h3.section-title {
-    font-size: .9em;
+    font-size: 1.1em;
     font-weight: 800;
     letter-spacing: 0.03em;
-    margin: 10px 0px 15px;
-    opacity: 0.8;
+    margin: 0px 0px 20px;
+    opacity: 0.6;
     color: #61748c;
     text-transform: uppercase; }
   main.projects p.paragraph {
@@ -178,7 +178,8 @@ main.projects {
     line-height: 1.7em;
     font-family: "Source Sans 3", Helvetica, Arial, sans-serif;
     font-weight: 400;
-    margin: 10px 0px 30px; }
+    margin: 10px 0px 30px;
+    max-width: 720px; }
 
 h2.header {
   margin-top: 10px;
@@ -248,14 +249,14 @@ h5.date {
   cursor: pointer; }
 
 .project-text-inner h3 {
-  font-size: 1.6em;
+  font-size: 2em;
   color: white;
   font-weight: 900; }
 
 .project-text-inner p {
   color: white;
-  width: 90%;
-  font-size: 1.2em;
+  width: 85%;
+  font-size: 1.25em;
   font-weight: 500;
   line-height: 1.2em;
   margin: 0 auto; }
@@ -344,13 +345,13 @@ h5.date {
       main.projects .text.tight {
         margin-bottom: 0px; } }
 
-@media only screen and (min-device-width: 1480px) {
+@media only screen and (min-device-width: 1580px) {
   main.welcome {
-    max-width: 1400px;
+    max-width: 1500px;
     margin-left: 300px; }
   main.projects {
-    margin-left: 300px;
-    max-width: 1200px; }
+    max-width: 1400px;
+    margin-left: 300px; }
   main.writing {
     max-width: 1100px;
     margin-left: 300px; }
@@ -4860,7 +4861,7 @@ main {
   position: fixed;
   top: 0;
   bottom: 0;
-  width: 290px;
+  width: 275px;
   height: auto;
   overflow-x: hidden;
   overflow-y: auto;
@@ -4907,7 +4908,7 @@ main {
 
 .nav-footer {
   bottom: 0;
-  padding: 25px 0px 0px; }
+  padding: 60px 0px 0px; }
 
 .nav-footer-social-buttons {
   margin-bottom: 0;
@@ -4957,3 +4958,19 @@ main {
 .list-icons li {
   float: left;
   margin-right: 5px; }
+
+@media (min-width: 768px) {
+  .grid-item,
+  .grid-sizer {
+    width: 47.5%; } }
+
+@media (min-width: 1200px) {
+  .grid-item,
+  .grid-sizer {
+    width: 29.5%; } }
+
+.gutter-sizer {
+  width: 3%; }
+
+.grid-item, .grid-sizer {
+  margin-bottom: 1%; }
