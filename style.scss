@@ -210,8 +210,8 @@ main.projects {
 			margin-bottom: 20px;
 		}
 		.thirds {
-			padding-left: 10px;
-			padding-right: 10px;
+			//padding-left: 10px;
+			//padding-right: 10px;
 		}
 
 		.row {
@@ -237,7 +237,7 @@ main.projects {
 		}
 
 		&.square {
-			max-width: 90%;
+			max-width: 80%;
 		}
 
 		&.small {
@@ -246,7 +246,6 @@ main.projects {
 
 		&.whiteboard {
 			max-width: 90%;
-			margin-top: 15px;
 		}
 
 		&.video-play:hover {
@@ -255,6 +254,11 @@ main.projects {
   			-o-transition: all .15s ease-in-out;
   			transition: all .15s ease-in-out;
 		}
+	}
+
+	video.img-responsive {
+		max-width: 100%;
+		margin-top: 20px;
 	}
 
 	.text {
