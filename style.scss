@@ -206,7 +206,7 @@ main.projects {
 		}
 
 		&#fluently {
-			margin-top: 10px;
+			margin-top: 60px;
 			margin-bottom: 20px;
 		}
 		.thirds {
@@ -214,6 +214,17 @@ main.projects {
 			padding-right: 10px;
 		}
 
+		.row {
+			margin-right: 0px;
+			margin-left: 0px;
+		}
+
+	}
+
+	.gray-bg-col {
+		//background-color: #F5F5F5;
+		border-radius: 4px;
+		padding: 5px;
 	}
 
 	img {
@@ -221,6 +232,8 @@ main.projects {
 
 		&.featured-image {
 			max-width: 100%; 
+			padding: 0px;
+			margin: 10px 0px;
 		}
 
 		&.square {
@@ -246,17 +259,18 @@ main.projects {
 
 	.text {
 		margin: 10px 0px 30px;
+		padding: 0px;
 
 		&.tight {
-			margin-bottom: 15px;
+			margin-bottom: 0px;
 		}
 	}
 
 	h3.section-title {
 		font-size: 1.1em;
 	    font-weight: 800;
-	    letter-spacing: 0.03em;
-	    margin: 0px 0px 20px;
+	    letter-spacing: 0.04em;
+	    margin: 20px 0px;
 	    opacity: 0.6;
 	    color: $gray;
 	    text-transform: uppercase;
@@ -500,6 +514,7 @@ and (max-device-width : 680px) {
 			&.small {
 				max-width: 100%;
 			}
+
 		}
 		
 		.text {
@@ -523,7 +538,7 @@ and (min-device-width : 1580px) {
 	}
 
 	main.projects {
-		max-width: 1400px;
+		max-width: 1200px;
 		margin-left: 300px;
 	}
 

@@ -137,6 +137,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/projects\/chegg-skills-wide.jpeg" : {
+      "ft" : 16384,
+      "iS" : 226925,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/projects\/chegg-skills-wide.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/projects\/chegg-skills-wide.png" : {
+      "ft" : 32768,
+      "iS" : 1046695,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/projects\/chegg-skills-wide.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/projects\/chegg-skills.png" : {
       "ft" : 32768,
       "iS" : 105586,
@@ -410,6 +436,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/projects\/s4g-feature.png" : {
+      "ft" : 32768,
+      "iS" : 425485,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/projects\/s4g-feature.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/projects\/s4g-tilt.png" : {
       "ft" : 32768,
       "iS" : 294558,
@@ -588,19 +627,6 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/assets\/images\/thinkful.jpg" : {
-      "ft" : 16384,
-      "iS" : 118063,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/images\/thinkful.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
