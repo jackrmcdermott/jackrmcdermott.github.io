@@ -475,6 +475,45 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/projects\/s4g-feature1.jpeg" : {
+      "ft" : 16384,
+      "iS" : 184224,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/projects\/s4g-feature1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/projects\/s4g-reach.jpeg" : {
+      "ft" : 16384,
+      "iS" : 183972,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/projects\/s4g-reach.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/projects\/s4g-reach.png" : {
+      "ft" : 32768,
+      "iS" : 555276,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/projects\/s4g-reach.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/projects\/s4g-tilt.png" : {
       "ft" : 32768,
       "iS" : 294558,
