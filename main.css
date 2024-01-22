@@ -281,10 +281,11 @@ h5.date {
   .navbar {
     padding: 10px 0px 0px; }
   .navbar-brand {
-    font-size: 2.1em;
+    font-size: 2.5em;
     width: 66%;
     text-align: center;
-    letter-spacing: -0.02em; }
+    letter-spacing: -0.02em;
+    font-weight: bold; }
   .navbar-toggle {
     margin-top: 9px;
     z-index: 99; }
@@ -326,11 +327,11 @@ h5.date {
     margin-left: 0px;
     margin-right: 2px; }
   main.projects {
-    margin: 10px 0px 60px; }
+    margin: 0px 0px 60px; }
     main.projects section.project {
       margin: 30px 0px 0px;
       display: inline-block; }
-      main.projects section.project#gettoknowyou {
+      main.projects section.project#chegg {
         margin-top: 0px; }
       main.projects section.project#speech4god {
         margin-top: 0px; }
@@ -341,9 +342,9 @@ h5.date {
     main.projects img {
       padding: 15px; }
       main.projects img.square {
-        max-width: 100%; }
+        max-width: 90%; }
       main.projects img.small {
-        max-width: 100%; }
+        max-width: 90%; }
     main.projects .text {
       margin: 0px 0px 0px; }
       main.projects .text.tight {
