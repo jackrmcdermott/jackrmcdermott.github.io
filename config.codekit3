@@ -332,6 +332,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/projects\/fluently-logo.jpeg" : {
+      "ft" : 16384,
+      "iS" : 195163,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/projects\/fluently-logo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/projects\/full.jpg" : {
       "ft" : 16384,
       "iS" : 149007,
@@ -527,6 +540,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/projects\/s4g-web.jpeg" : {
+      "ft" : 16384,
+      "iS" : 22250,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/projects\/s4g-web.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/projects\/sized1.jpg" : {
       "ft" : 16384,
       "iS" : 293760,
@@ -650,6 +676,32 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/projects\/skills-web4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/projects\/skills-wide.jpeg" : {
+      "ft" : 16384,
+      "iS" : 459745,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/projects\/skills-wide.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/projects\/social-skills.jpeg" : {
+      "ft" : 16384,
+      "iS" : 556746,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/projects\/social-skills.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
