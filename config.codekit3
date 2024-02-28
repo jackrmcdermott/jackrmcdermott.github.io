@@ -25,6 +25,14 @@
       "oAP" : "\/.sass-cache\/948923f7a655ab67b3f326bb73a2cad448808a50\/style.scssc",
       "oF" : 0
     },
+    "\/about\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/about\/index.html",
+      "oF" : 0
+    },
     "\/assets\/blog\/k12-edtech-consolidation.jpg" : {
       "ft" : 16384,
       "iS" : 522000,
@@ -65,6 +73,32 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/about\/jack-wide.jpg" : {
+      "ft" : 16384,
+      "iS" : 787573,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/about\/jack-wide.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/about\/jack.jpg" : {
+      "ft" : 16384,
+      "iS" : 796853,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/about\/jack.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1107,19 +1141,6 @@
       "iS" : 1058,
       "oA" : 0,
       "oAP" : "\/deprecated\/img\/icons\/twitter.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deprecated\/img\/jack.png" : {
-      "ft" : 32768,
-      "iS" : 28543,
-      "oA" : 0,
-      "oAP" : "\/deprecated\/img\/jack.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
