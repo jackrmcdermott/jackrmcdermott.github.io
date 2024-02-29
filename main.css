@@ -189,13 +189,15 @@ section.about {
   /* Smartphones (portrait and landscape) ----------- */ }
   section.about .about-row {
     margin: 40px 0px; }
-  section.about div.profile-pic {
-    padding-left: 0px; }
   section.about p.paragraph {
     margin-top: 0px;
-    padding-left: 70px; }
-  section.about .img-responsive {
-    padding: 0px; }
+    padding-left: 20px; }
+  section.about div.profile-pic {
+    padding-left: 0px;
+    text-align: left; }
+  section.about .img-responsive.profile {
+    padding: 0px;
+    width: 90%; }
   @media only screen and (min-device-width: 120px) and (max-device-width: 680px) {
     section.about .about-row {
       margin: 0px 0px 30px; }

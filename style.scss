@@ -291,17 +291,20 @@ section.about {
 		margin: 40px 0px;
 	}
 
-	div.profile-pic {
-		padding-left: 0px;
-	}
 
 	p.paragraph {
 		margin-top: 0px;
-		padding-left: 70px;
+		padding-left: 20px;
 	}
 
-	.img-responsive {
+	div.profile-pic {
+		padding-left: 0px;
+		text-align: left;
+	}
+
+	.img-responsive.profile {
 		padding: 0px;
+		width: 90%;
 	}
 
 
