@@ -297,7 +297,7 @@ section.about {
 
 	p.paragraph {
 		margin-top: 0px;
-		padding-left: 50px;
+		padding-left: 70px;
 	}
 
 	.img-responsive {
@@ -313,12 +313,18 @@ and (min-device-width : 120px)
 and (max-device-width : 680px) {
 
 	.about-row {
-		margin: 40px 0px;
+		margin: 0px 0px 30px;
+	}
+
+	.featured-image {
+		display: none;
 	}
 
 	div.profile-pic {
 		padding-left: 15px;
-		display: none;
+		margin: 0px auto 20px;
+		text-align: center;
+		width: 60%;
 	}
 
 	p.paragraph {
@@ -327,7 +333,7 @@ and (max-device-width : 680px) {
 	}
 
 	.img-responsive {
-		padding: 15px;
+		padding: 0px;
 	}
 
 
