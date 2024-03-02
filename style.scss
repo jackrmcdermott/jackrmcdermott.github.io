@@ -291,10 +291,9 @@ section.about {
 		margin: 40px 0px;
 	}
 
-
 	p.paragraph {
 		margin-top: 0px;
-		padding-left: 20px;
+		padding-left: 40px;
 	}
 
 	div.profile-pic {
@@ -304,7 +303,7 @@ section.about {
 
 	.img-responsive.profile {
 		padding: 0px;
-		width: 90%;
+		width: 75%;
 	}
 
 
@@ -344,12 +343,6 @@ and (max-device-width : 680px) {
 
 
 } // end about section 
-
-
-
-
-
-
 
 
 
@@ -611,7 +604,7 @@ and (min-device-width : 1580px) {
 	}
 
 	main.projects {
-		max-width: 1200px;
+		max-width: 1350px;
 		margin-left: 300px;
 	}
 
