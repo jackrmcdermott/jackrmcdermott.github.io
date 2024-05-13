@@ -33,6 +33,30 @@
       "oAP" : "\/about\/index.html",
       "oF" : 0
     },
+    "\/about\/why-highland.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/about\/why-highland.html",
+      "oF" : 0
+    },
+    "\/about\/why-sierra.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/about\/why-sierra.html",
+      "oF" : 0
+    },
+    "\/about\/why-writer.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/about\/why-writer.html",
+      "oF" : 0
+    },
     "\/assets\/blog\/k12-edtech-consolidation.jpg" : {
       "ft" : 16384,
       "iS" : 522000,
@@ -102,6 +126,97 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/about\/other\/highland-icon.jpeg" : {
+      "ft" : 16384,
+      "iS" : 3682,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/about\/other\/highland-icon.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/about\/other\/highland.jpeg" : {
+      "ft" : 16384,
+      "iS" : 76907,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/about\/other\/highland.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/about\/other\/sierra_logo.jpeg" : {
+      "ft" : 16384,
+      "iS" : 10027,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/about\/other\/sierra_logo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/about\/other\/sierra-wide.jpeg" : {
+      "ft" : 16384,
+      "iS" : 858214,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/about\/other\/sierra-wide.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/about\/other\/writer.jpg" : {
+      "ft" : 16384,
+      "iS" : 2683,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/about\/other\/writer.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/about\/other\/writer.png" : {
+      "ft" : 32768,
+      "iS" : 189507,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/about\/other\/writer.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/about\/other\/writer2.png" : {
+      "ft" : 32768,
+      "iS" : 35996,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/about\/other\/writer2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

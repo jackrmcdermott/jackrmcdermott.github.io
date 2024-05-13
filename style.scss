@@ -288,12 +288,16 @@ main.projects {
 section.about {
 
 	.about-row {
-		margin: 40px 0px;
+		margin: 80px 0px 40px;
 	}
 
 	p.paragraph {
 		margin-top: 0px;
-		padding-left: 40px;
+		padding: 0px 20px;
+	}
+
+	#why {
+		font-weight: bold;
 	}
 
 	div.profile-pic {
@@ -306,6 +310,15 @@ section.about {
 		width: 75%;
 	}
 
+	ul {
+		padding: 0px 50px;
+		margin-bottom: 30px;
+		font-size: 1.3em;
+	}
+
+	p.paragraph.highlight {
+		margin-bottom: 10px;
+	}
 
 
 
