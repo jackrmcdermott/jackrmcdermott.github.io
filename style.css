@@ -200,6 +200,8 @@ section.about {
     padding: 0px 50px;
     margin-bottom: 30px;
     font-size: 1.3em; }
+  section.about li {
+    margin-top: 15px; }
   section.about p.paragraph.highlight {
     margin-bottom: 10px; }
   @media only screen and (min-device-width: 120px) and (max-device-width: 680px) {
