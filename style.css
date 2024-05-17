@@ -208,6 +208,10 @@ section.about {
     width: 100%;
     margin: -20px 0px 20px;
     padding: 0px; }
+  section.about #transcript {
+    margin-top: 0px;
+    padding: 0px 15px;
+    font-style: italic; }
   @media only screen and (min-device-width: 120px) and (max-device-width: 680px) {
     section.about .about-row {
       margin: 0px 0px 30px; }
