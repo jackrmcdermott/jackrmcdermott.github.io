@@ -41,6 +41,14 @@
       "oAP" : "\/about\/why-assemblyAI.html",
       "oF" : 0
     },
+    "\/about\/why-descript.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/about\/why-descript.html",
+      "oF" : 0
+    },
     "\/about\/why-elevenlabs.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -165,6 +173,32 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/about\/other\/assembly.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/about\/other\/descript_cover.jpeg" : {
+      "ft" : 16384,
+      "iS" : 40714,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/about\/other\/descript_cover.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/about\/other\/descript.jpeg" : {
+      "ft" : 16384,
+      "iS" : 6359,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/about\/other\/descript.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
