@@ -57,14 +57,6 @@
       "oAP" : "\/about\/why-elevenlabs.html",
       "oF" : 0
     },
-    "\/about\/why-highland.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/about\/why-highland.html",
-      "oF" : 0
-    },
     "\/about\/why-sierra.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -227,6 +219,19 @@
       "oF" : 0,
       "oIPL" : 1,
       "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/about\/other\/elevenlabs1.png" : {
+      "ft" : 32768,
+      "iS" : 626249,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/about\/other\/elevenlabs1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1099,6 +1104,19 @@
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/jack.jpeg" : {
+      "ft" : 16384,
+      "iS" : 73017,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/jack.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
