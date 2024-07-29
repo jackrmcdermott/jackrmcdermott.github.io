@@ -393,6 +393,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/projects\/blackmath.png" : {
+      "ft" : 32768,
+      "iS" : 1825957,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/projects\/blackmath.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/projects\/chegg-skills-feature1.png" : {
       "ft" : 32768,
       "iS" : 1110740,
@@ -948,19 +961,6 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/assets\/images\/projects\/social-skills.jpeg" : {
-      "ft" : 16384,
-      "iS" : 556746,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/images\/projects\/social-skills.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

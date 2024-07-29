@@ -140,6 +140,8 @@ main.projects {
   main.projects .gray-bg-col {
     border-radius: 4px;
     padding: 5px; }
+  main.projects .s4g-wistia {
+    max-width: 360px; }
   main.projects img {
     padding: 15px; }
     main.projects img.featured-image {
