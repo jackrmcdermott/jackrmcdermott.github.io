@@ -141,11 +141,10 @@ main.projects {
     main.projects section.project .row {
       margin-right: 0px;
       margin-left: 0px; }
-  main.projects .gray-bg-col {
-    border-radius: 4px;
-    padding: 5px; }
   main.projects .s4g-wistia {
     max-width: 360px; }
+  main.projects #fluently-ipad {
+    max-width: 80%; }
   main.projects img {
     padding: 15px; }
     main.projects img.featured-image {
@@ -156,18 +155,21 @@ main.projects {
       max-width: 80%; }
     main.projects img.small {
       max-width: 70%; }
-    main.projects img.whiteboard {
-      max-width: 90%; }
+    main.projects img.whiteboard, main.projects img.ninety {
+      max-width: 90%;
+      padding-bottom: 10px; }
     main.projects img.video-play:hover {
       opacity: 0.9;
       -webkit-transition: all .15s ease-in-out;
       -o-transition: all .15s ease-in-out;
       transition: all .15s ease-in-out; }
-  main.projects video.img-responsive {
+  main.projects .img-responsive#fluently-icon {
+    max-width: 10px; }
+  main.projects .img-responsivevideo {
     max-width: 100%;
     margin-top: 20px; }
   main.projects .text {
-    margin: 10px 0px 30px;
+    margin: 20px 0px 20px;
     padding: 0px; }
     main.projects .text.tight {
       margin-bottom: 0px; }
@@ -185,7 +187,11 @@ main.projects {
     font-family: "Source Sans 3", Helvetica, Arial, sans-serif;
     font-weight: 400;
     margin: 10px 0px 30px;
-    max-width: 720px; }
+    max-width: 760px; }
+  main.projects img#fluently-icon {
+    padding: 0px;
+    max-width: 130px;
+    display: block; }
 
 section.about {
   /* Smartphones (portrait and landscape) ----------- */ }

@@ -601,6 +601,27 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/projects\/fluently_icon.png" : {
+      "ft" : 32768,
+      "iS" : 60128,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/projects\/fluently_icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/projects\/fluently-ipad.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/assets\/images\/projects\/fluently-ipad-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
     "\/assets\/images\/projects\/fluently-logo.jpeg" : {
       "ft" : 16384,
       "iS" : 195163,

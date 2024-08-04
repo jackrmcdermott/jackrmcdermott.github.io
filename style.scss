@@ -195,7 +195,6 @@ main.projects {
 			margin-top: 50px; 
 		}
 
-
 		&#speech4good {
 			margin-top: 50px;
 		}
@@ -212,14 +211,13 @@ main.projects {
 
 	}
 
-	.gray-bg-col {
-		//background-color: #F5F5F5;
-		border-radius: 4px;
-		padding: 5px;
-	}
 
 	.s4g-wistia {
 		max-width: 360px;
+	}
+
+	#fluently-ipad {
+		max-width: 80%;
 	}
 
 	img {
@@ -239,8 +237,9 @@ main.projects {
 			max-width: 70%;
 		}
 
-		&.whiteboard {
+		&.whiteboard, &.ninety {
 			max-width: 90%;
+			padding-bottom: 10px;
 		}
 
 		&.video-play:hover {
@@ -251,13 +250,22 @@ main.projects {
 		}
 	}
 
-	video.img-responsive {
-		max-width: 100%;
-		margin-top: 20px;
+
+
+	.img-responsive {
+
+		 &#fluently-icon {
+		 	max-width: 10px;
+		 }
+
+		 &video{  
+			max-width: 100%;
+			margin-top: 20px;
+		}
 	}
 
 	.text {
-		margin: 10px 0px 30px;
+		margin: 20px 0px 20px;
 		padding: 0px;
 
 		&.tight {
@@ -281,8 +289,14 @@ main.projects {
 		font-family: $sans;
 		font-weight: 400;
 		margin: 10px 0px 30px;
-		max-width: 720px;
+		max-width: 760px;
 	}
+
+	img#fluently-icon {
+		padding: 0px;
+    	max-width: 130px;
+    	display: block;
+    }
 }
 
 
@@ -391,9 +405,6 @@ and (max-device-width : 680px) {
 
 
 
-
-
-
 // Writing
 
 h2.header {
@@ -458,7 +469,10 @@ h5.date {
 }
 
 
-// Project Tiles
+
+
+
+// Home Project Tiles
 
 .grid-item .project-description {
 	background: rgba(0, 0, 0, 0.4);
