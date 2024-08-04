@@ -128,19 +128,25 @@ main.projects {
     margin: 0px 0px 0px;
     display: inline-block; }
     main.projects section.project#panorama {
-      margin-top: 50px; }
+      margin-top: 80px; }
     main.projects section.project#speech4good {
       margin-top: 50px; }
     main.projects section.project#fluently {
       margin-top: 60px;
       margin-bottom: 0px; }
-    main.projects section.project .row {
-      margin-right: 0px;
-      margin-left: 0px; }
+  main.projects .flush-col {
+    padding: 0px; }
   main.projects .s4g-wistia {
     max-width: 360px; }
+  main.projects .fluently-icon {
+    padding: 0px;
+    max-width: 130px;
+    display: block; }
   main.projects #fluently-ipad {
     max-width: 80%; }
+  main.projects .wistia_responsive_wrapper {
+    margin: 20px 0px;
+    padding: 5px 15px; }
   main.projects img {
     padding: 15px; }
     main.projects img.featured-image {
@@ -151,21 +157,15 @@ main.projects {
       max-width: 80%; }
     main.projects img.small {
       max-width: 70%; }
-    main.projects img.whiteboard, main.projects img.ninety {
-      max-width: 90%;
-      padding-bottom: 10px; }
+    main.projects img.whiteboard {
+      max-width: 90%; }
     main.projects img.video-play:hover {
       opacity: 0.9;
       -webkit-transition: all .15s ease-in-out;
       -o-transition: all .15s ease-in-out;
       transition: all .15s ease-in-out; }
-  main.projects .img-responsive#fluently-icon {
-    max-width: 10px; }
-  main.projects .img-responsivevideo {
-    max-width: 100%;
-    margin-top: 20px; }
   main.projects .text {
-    margin: 20px 0px 20px;
+    margin: 23px 0px 23px;
     padding: 0px; }
     main.projects .text.tight {
       margin-bottom: 0px; }
@@ -178,16 +178,12 @@ main.projects {
     color: #61748c;
     text-transform: uppercase; }
   main.projects p.paragraph {
-    font-size: 1.3em;
+    font-size: 1.25em;
     line-height: 1.7em;
     font-family: "Source Sans 3", Helvetica, Arial, sans-serif;
     font-weight: 400;
-    margin: 10px 0px 30px;
-    max-width: 760px; }
-  main.projects img#fluently-icon {
-    padding: 0px;
-    max-width: 130px;
-    display: block; }
+    margin: 23px 0px 23px;
+    max-width: 750px; }
 
 section.about {
   /* Smartphones (portrait and landscape) ----------- */ }
