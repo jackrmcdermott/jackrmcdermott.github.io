@@ -386,7 +386,6 @@ and (max-device-width : 680px) {
 		padding: 0px;
 	}
 
-
 	}// end mobile about
 
 
@@ -638,8 +637,13 @@ and (max-device-width : 680px) {
 				margin-bottom: 0px;
 			}
 		}
-	}
-}
+
+		#fluently-ipad, img.whiteboard {
+			max-width: 100%;
+		}
+
+	} // end project section
+} // end main projects
 
 
 // Main Screen Sizer Width 
