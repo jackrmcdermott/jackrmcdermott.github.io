@@ -1051,6 +1051,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/projects\/s4g-product.png" : {
+      "ft" : 32768,
+      "iS" : 431389,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/projects\/s4g-product.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/projects\/s4g-reach.jpeg" : {
       "ft" : 16384,
       "iS" : 183972,
@@ -1137,7 +1150,7 @@
       "oAP" : "\/assets\/images\/projects\/whiteboard.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

@@ -126,13 +126,16 @@
         <img class="img-responsive whiteboard" alt="" src="/assets/images/projects/whiteboard.png">
       </div>
       <div class="col-xs-12 col-md-6">
-        <!-- S4G speech graph  -->
-        <script src="https://fast.wistia.com/embed/medias/i3mxhgmuo0.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:140.28% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="s4g-wistia wistia_embed wistia_async_i3mxhgmuo0 seo=false videoFoam=true" style="height:100%;position:relative;width:100%">&nbsp;</div></div></div>
+         <img class="img-responsive whiteboard" alt="" src="/assets/images/projects/s4g-product.png"> 
+        <!-- <div id="s4g-ipad"></div> -->
+
+        <!-- S4G speech graph  
+        <script src="https://fast.wistia.com/embed/medias/i3mxhgmuo0.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:140.28% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="s4g-wistia wistia_embed wistia_async_i3mxhgmuo0 seo=false videoFoam=true" style="height:100%;position:relative;width:100%">&nbsp;</div></div></div> -->
       </div><!--end col -->
     </div><!-- end row -->
 
     <div class="col-xs-12 col-md-9 text">
-      <p class="paragraph">Over two years, my team built several iOS apps in the earlier days of the App Store. Our apps reached 25K+ users, earned 4.9+ star ratings, and was recognized as one of <a href="https://www.inc.com/coolest-college-start-ups-2013/issie-lapowsky/balbus-speech-jack-mcdermott.html?cid=landermore" target="_blank">Inc. Magazine's</a> "Coolest College Startups" of 2013. We piloted new offerings in remote speech teletherapy, but ultimately pursued other avenues.</p>
+      <p class="paragraph">Over two years, we built several iOS apps in the earlier days of the App Store. Our apps reached 25K+ paid users, earned 4.9+ star ratings, and were recognized as one of <a href="https://www.inc.com/coolest-college-start-ups-2013/issie-lapowsky/balbus-speech-jack-mcdermott.html?cid=landermore" target="_blank">Inc. Magazine's "Coolest College Startup."</a> We piloted innovative new offerings in remote speech teletherapy, but our team ultimately pursued other avenues.</p>
     </div><!-- end -text -->
       
   </section><!-- end project section -->
@@ -143,13 +146,13 @@
 
     <div class="col-xs-12 col-md-9 text">
       <h3 class="section-title">Fluently (2012)</h3>
-      <p class="paragraph">I launched <strong>Fluently</strong> to help users visualize stuttering and improve speech motor skills based on speech therapy research. Our team developed advanced audio models that analyzed real-time voice patterns and detected moments of disfluency.</p>
+      <p class="paragraph">As another speech app, I designed <strong>Fluently</strong> to help users visualize their stutter. The app helped users improve speech motor skills based on therapy research. Our team developed advanced audio models that analyzed real-time voice patterns and detected moments of disfluency.</p>
     </div><!-- end -text -->
 
     <div id="fluently-ipad"></div>
 
     <div class="col-xs-12 col-md-9 text">
-      <p class="paragraph">The app was well-received by speech therapists and users alike. Yet the technical work proved more difficult than imagined, and we sunsetted it about a year later. </p><p class="paragraph">Looking back, it's still one of my favorites.</p>
+      <p class="paragraph">The app was well-received by speech therapists and users alike. Yet the technical work proved more difficult than imagined, and we sunsetted the app about a year later. Looking back, it's still one of my favorites.</p>
     </div><!-- end text -->
 
 
@@ -162,6 +165,18 @@
 
 
   <!-- Footer Scripts -->
+
+  <script>
+    var animation = bodymovin.loadAnimation({
+    // animationData: { /* ... */ },
+    container: document.getElementById('s4g-ipad'), // required
+    path: '/assets/images/projects/fluently-ipad.json', // required
+    renderer: 'svg', // required
+    loop: true, // optional
+    autoplay: true, // optional
+    name: "Speech4Good iPad", // optional
+  });
+  </script>
 
   <script>
     var animation = bodymovin.loadAnimation({
