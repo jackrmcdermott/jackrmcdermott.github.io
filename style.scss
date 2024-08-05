@@ -43,9 +43,8 @@ a {
 }
 
 img {
-	border-radius: 3px;
-} 
-
+	border-radius: 6px;
+}
 
 figure.filter-max {
   position: relative;
@@ -204,6 +203,10 @@ main.projects {
 
 	.flush-col {
 		padding: 0px;
+
+		img {
+			border-radius: 20px;
+		}
 	}
 
 	.s4g-wistia {
@@ -225,6 +228,9 @@ main.projects {
 		padding: 5px 15px;
 	}
 
+	.w-chrome {
+		border-radius: 10px;
+	}
 
 	img {
 		padding: 15px;
@@ -284,9 +290,9 @@ main.projects {
 		max-width: 750px;
 	}
 
-	#top-link {
-		display: none;
-	}
+		#top-link {
+			display:none;
+		}
 
 }
 
@@ -556,7 +562,7 @@ and (max-device-width : 680px) {
 	}
 
 	p.sidebar-entry, ul.nav {
-		font-size: 1.2em;
+		font-size: 1.3em;
 		line-height: 1.4em;
 	}
 
@@ -574,7 +580,7 @@ and (max-device-width : 680px) {
 	.sidebar {
 		padding-left: 30px;
 		width: fit-content;
-		padding-right: 50px;
+		padding-right: 15px;
 	}
 
 	ul.nav > li {
@@ -594,11 +600,10 @@ and (max-device-width : 680px) {
 	}
 
 	.nav-footer-social-buttons > a {
-		font-size: 1.05em;
+		font-size: 1.4em;
 		margin-left: 0px;
-		margin-right: 8px;
+		margin-right: 20px;
 	}
-	
 
 	#hello {
 		font-size: 2.0em;
@@ -660,10 +665,11 @@ and (max-device-width : 680px) {
 
 		#top-link {
 			display: block;
-			margin: 10px auto;
+			font-size: 1em;
+			margin: 0px auto 0px;
 			padding: 10px;
 			font-weight: bold;
-			text-align: center;
+			//text-align: center;
 		}
 	} // end project section
 } // end main projects

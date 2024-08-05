@@ -328,6 +328,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/chegg-skills-cover.jpeg" : {
+      "ft" : 16384,
+      "iS" : 295404,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/chegg-skills-cover.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/chegg-skills.jpeg" : {
       "ft" : 16384,
       "iS" : 856891,
@@ -412,6 +425,32 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/projects\/chegg-skills-bm2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/projects\/chegg-skills-bm3.jpeg" : {
+      "ft" : 16384,
+      "iS" : 126636,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/projects\/chegg-skills-bm3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/projects\/chegg-skills-feature.jpeg" : {
+      "ft" : 16384,
+      "iS" : 195991,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/projects\/chegg-skills-feature.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

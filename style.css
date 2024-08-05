@@ -18,7 +18,7 @@ a {
     text-decoration: none; }
 
 img {
-  border-radius: 3px; }
+  border-radius: 6px; }
 
 figure.filter-max {
   position: relative;
@@ -133,6 +133,8 @@ main.projects {
       margin-bottom: 0px; }
   main.projects .flush-col {
     padding: 0px; }
+    main.projects .flush-col img {
+      border-radius: 20px; }
   main.projects .s4g-wistia {
     max-width: 360px; }
   main.projects .fluently-icon {
@@ -144,6 +146,8 @@ main.projects {
   main.projects .wistia_responsive_wrapper {
     margin: 20px 0px;
     padding: 5px 15px; }
+  main.projects .w-chrome {
+    border-radius: 10px; }
   main.projects img {
     padding: 15px; }
     main.projects img.featured-image {
@@ -347,7 +351,7 @@ h5.date {
     background: #fcfcfc;
     box-shadow: 2px 0 3px 0 rgba(167, 167, 167, 0.32); }
   p.sidebar-entry, ul.nav {
-    font-size: 1.2em;
+    font-size: 1.3em;
     line-height: 1.4em; }
   p.mobile-welcome {
     display: inline-block;
@@ -359,7 +363,7 @@ h5.date {
   .sidebar {
     padding-left: 30px;
     width: fit-content;
-    padding-right: 50px; }
+    padding-right: 15px; }
   ul.nav > li {
     margin: 0px 0px 0px;
     padding: 10px 0px; }
@@ -371,9 +375,9 @@ h5.date {
     margin: 0px 0px;
     padding: 10px 8px 10px; }
   .nav-footer-social-buttons > a {
-    font-size: 1.05em;
+    font-size: 1.4em;
     margin-left: 0px;
-    margin-right: 8px; }
+    margin-right: 20px; }
   #hello {
     font-size: 2.0em;
     margin: 10px 0px 20px;
@@ -406,10 +410,10 @@ h5.date {
       max-width: 100%; }
     main.projects #top-link {
       display: block;
-      margin: 10px auto;
+      font-size: 1em;
+      margin: 0px auto 0px;
       padding: 10px;
-      font-weight: bold;
-      text-align: center; } }
+      font-weight: bold; } }
 
 @media only screen and (min-device-width: 1580px) {
   main.welcome {
