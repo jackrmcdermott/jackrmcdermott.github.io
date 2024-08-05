@@ -109,8 +109,8 @@ p.sidebar-entry {
 
 .nav > li > a {
 	line-height: 2.5em;
-	font-size: 1.1em;
-	color: darken($gray, 30%);
+	font-size: 1.2em;
+	color: darken($gray, 10%);
 	-webkit-transition: all .2s ease-in-out;
   	-o-transition: all .2s ease-in-out;
   	transition: all .2s ease-in-out;
@@ -124,7 +124,7 @@ p.sidebar-entry {
 .nav-footer-social-buttons > a {
 	color: $blue;
 	font-size: 1.1em;
-	margin-right: 0px;
+	margin-right: 8px;
 	-webkit-transition: all .2s ease-in-out;
   	-o-transition: all .2s ease-in-out;
   	transition: all .2s ease-in-out;
@@ -188,15 +188,15 @@ main.projects {
 		display: inline-block;
 		
 		&#panorama {
-			margin-top: 80px; 
+			margin-top: 150px; 
 		}
 
 		&#speech4good {
-			margin-top: 50px;
+			margin-top: 60px;
 		}
 
 		&#fluently {
-			margin-top: 60px;
+			margin-top: 0px;
 			margin-bottom: 0px;
 		}
 
@@ -282,6 +282,10 @@ main.projects {
 		font-weight: 400;
 		margin: 23px 0px 23px;
 		max-width: 750px;
+	}
+
+	#top-link {
+		display: none;
 	}
 
 }
@@ -621,7 +625,7 @@ and (max-device-width : 680px) {
 
 			&#fluently {
 				margin-top: 0px;
-				margin-bottom: 50px;
+				margin-bottom: 30px;
 			}
 
 			&#politics {
@@ -650,10 +654,17 @@ and (max-device-width : 680px) {
 			}
 		}
 
-		#fluently-ipad, img.whiteboard {
+		#fluently-ipad, img.whiteboard, .s4g-wistia {
 			max-width: 100%;
 		}
 
+		#top-link {
+			display: block;
+			margin: 10px auto;
+			padding: 10px;
+			font-weight: bold;
+			text-align: center;
+		}
 	} // end project section
 } // end main projects
 
