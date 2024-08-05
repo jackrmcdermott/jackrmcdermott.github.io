@@ -88,46 +88,42 @@ figure.filter-light {
 	color: $blue;
 }
 
-.icon-bar {
-	opacity: 0.3;
-}
-
 .site-tagline {
 	margin-bottom: 30px;
 	line-height: 1.5em;
 }
 
 p.sidebar-entry {
-	margin: 50px 0px;
+	margin: 60px 0px;
 }
 
 .timeframe {
 	font-size: 0.9em;
 	font-weight: 600;
 	letter-spacing: 0.03em;
-	margin: 10px 0px;
+	margin: 20px 0px 10px;
 	opacity: 0.6;
 	text-transform: uppercase;
 	color: $gray;
 }
 
 .nav > li > a {
-	line-height: 2em;
-	font-size: 1.2em;
-	color: $black;
+	line-height: 2.5em;
+	font-size: 1.1em;
+	color: darken($gray, 30%);
 	-webkit-transition: all .2s ease-in-out;
   	-o-transition: all .2s ease-in-out;
   	transition: all .2s ease-in-out;
 	&.active {
 		color: $blue;
-		font-weight: 600; 
+		font-weight: 800; 
 		opacity: 1.0;
 	}
 }
 
 .nav-footer-social-buttons > a {
 	color: $blue;
-	font-size: 1.15em;
+	font-size: 1.1em;
 	margin-right: 0px;
 	-webkit-transition: all .2s ease-in-out;
   	-o-transition: all .2s ease-in-out;
@@ -147,8 +143,8 @@ p.sidebar-entry {
 }
 
 #hello {
-	font-size: 1.3em;
-	margin: 15px 0px;
+	font-size: 1.6em;
+	margin: 30px 0px 10px;
 	display: inline-block;
 }
 
@@ -270,8 +266,8 @@ main.projects {
 	}
 
 	h3.section-title {
-		font-size: 1.1em;
-	    font-weight: 800;
+		font-size: 1.05em;
+	    font-weight: 700;
 	    letter-spacing: 0.04em;
 	    margin: 20px 0px;
 	    opacity: 0.6;
@@ -522,20 +518,24 @@ h5.date {
 and (min-device-width : 120px) 
 and (max-device-width : 680px) {
 	
+
+	// MOBILE NAVBAR 
 	.navbar {
 		padding: 10px 0px 0px;
 	}
 	.navbar-brand {
 		font-size: 2.5em;
-		width: 66%;
+		width: 76%;
 		text-align: center;
 		letter-spacing: -0.02em;
 		font-weight: bold;
+		display: none;
 	}
 	.navbar-toggle {
 		margin-top: 9px;
 		z-index: 99;
 	}
+
 	ul.nav {
 		margin-top: 60px;
 		padding-right: 80px;
@@ -544,15 +544,18 @@ and (max-device-width : 680px) {
 	.timeframe {
 		font-size: 15px;
 	}
+
 	.sidebar.open {
 		z-index: 1;
 		background: $bg; 
 		box-shadow: 2px 0 3px 0 rgba(167,167,167,0.32);
 	}
+
 	p.sidebar-entry, ul.nav {
-		font-size: 1.3em;
+		font-size: 1.2em;
 		line-height: 1.4em;
 	}
+
 	p.mobile-welcome {
 		display: inline-block;
 		font-size: 1.35em;
@@ -587,11 +590,20 @@ and (max-device-width : 680px) {
 	}
 
 	.nav-footer-social-buttons > a {
-		font-size: 1.3em;
+		font-size: 1.05em;
 		margin-left: 0px;
-		margin-right: 2px;
+		margin-right: 8px;
 	}
 	
+
+	#hello {
+		font-size: 2.0em;
+		margin: 10px 0px 20px;
+		display: inline-block;
+	}
+
+	// PROJECTS MOBILE
+
 	main.projects {
 		margin: 0px 0px 60px;
 
@@ -609,7 +621,7 @@ and (max-device-width : 680px) {
 
 			&#fluently {
 				margin-top: 0px;
-				margin-bottom: 80px;
+				margin-bottom: 50px;
 			}
 
 			&#politics {

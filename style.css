@@ -51,40 +51,37 @@ figure.filter-light {
   font-weight: 600;
   color: #3585f0; }
 
-.icon-bar {
-  opacity: 0.3; }
-
 .site-tagline {
   margin-bottom: 30px;
   line-height: 1.5em; }
 
 p.sidebar-entry {
-  margin: 50px 0px; }
+  margin: 60px 0px; }
 
 .timeframe {
   font-size: 0.9em;
   font-weight: 600;
   letter-spacing: 0.03em;
-  margin: 10px 0px;
+  margin: 20px 0px 10px;
   opacity: 0.6;
   text-transform: uppercase;
   color: #61748c; }
 
 .nav > li > a {
-  line-height: 2em;
-  font-size: 1.2em;
-  color: #1a1b26;
+  line-height: 2.5em;
+  font-size: 1.1em;
+  color: #222932;
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out; }
   .nav > li > a.active {
     color: #3585f0;
-    font-weight: 600;
+    font-weight: 800;
     opacity: 1.0; }
 
 .nav-footer-social-buttons > a {
   color: #3585f0;
-  font-size: 1.15em;
+  font-size: 1.1em;
   margin-right: 0px;
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
@@ -99,8 +96,8 @@ p.sidebar-entry {
   display: none; }
 
 #hello {
-  font-size: 1.3em;
-  margin: 15px 0px;
+  font-size: 1.6em;
+  margin: 30px 0px 10px;
   display: inline-block; }
 
 main.projects {
@@ -170,8 +167,8 @@ main.projects {
     main.projects .text.tight {
       margin-bottom: 0px; }
   main.projects h3.section-title {
-    font-size: 1.1em;
-    font-weight: 800;
+    font-size: 1.05em;
+    font-weight: 700;
     letter-spacing: 0.04em;
     margin: 20px 0px;
     opacity: 0.6;
@@ -330,10 +327,11 @@ h5.date {
     padding: 10px 0px 0px; }
   .navbar-brand {
     font-size: 2.5em;
-    width: 66%;
+    width: 76%;
     text-align: center;
     letter-spacing: -0.02em;
-    font-weight: bold; }
+    font-weight: bold;
+    display: none; }
   .navbar-toggle {
     margin-top: 9px;
     z-index: 99; }
@@ -347,7 +345,7 @@ h5.date {
     background: #fcfcfc;
     box-shadow: 2px 0 3px 0 rgba(167, 167, 167, 0.32); }
   p.sidebar-entry, ul.nav {
-    font-size: 1.3em;
+    font-size: 1.2em;
     line-height: 1.4em; }
   p.mobile-welcome {
     display: inline-block;
@@ -371,9 +369,13 @@ h5.date {
     margin: 0px 0px;
     padding: 10px 8px 10px; }
   .nav-footer-social-buttons > a {
-    font-size: 1.3em;
+    font-size: 1.05em;
     margin-left: 0px;
-    margin-right: 2px; }
+    margin-right: 8px; }
+  #hello {
+    font-size: 2.0em;
+    margin: 10px 0px 20px;
+    display: inline-block; }
   main.projects {
     margin: 0px 0px 60px; }
     main.projects section.project {
@@ -385,7 +387,7 @@ h5.date {
         margin-top: 0px; }
       main.projects section.project#fluently {
         margin-top: 0px;
-        margin-bottom: 80px; }
+        margin-bottom: 50px; }
       main.projects section.project#politics {
         margin-top: 0px; }
     main.projects img {

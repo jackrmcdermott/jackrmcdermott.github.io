@@ -3599,7 +3599,9 @@ tbody.collapse.in {
   background-color: transparent; }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #888; }
+  background-color: #888; 
+  background-color: $blue; // EDITED
+}
 
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
