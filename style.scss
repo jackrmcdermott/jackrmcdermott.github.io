@@ -426,12 +426,16 @@ h2.header {
 
 main.writing {
 	margin-bottom: 40px;
+
+	.featured-image {
+		margin-bottom: 20px;
+	}
 }
 
 div.writing-post {
 	margin: 0px 0px 0px;
 	padding: 12px 32px 25px;
-	border-radius: 6px;
+	border-radius: 10px;
 	display: inline-block;
 	-webkit-transition: all .15s ease-in-out;
   	-o-transition: all .15s ease-in-out;
@@ -444,7 +448,7 @@ div.writing-post {
 }
 
 h4.title {
-	margin-bottom: 2px;
+	margin-bottom: 4px;
 	font-weight: bold;
 	color: $blue;
 	font-size: 1.4em;
@@ -476,7 +480,7 @@ h5.date {
 // Home Project Tiles
 
 .grid-item .project-description {
-	background: rgba(0, 0, 0, 0.4);
+	background: rgba(0, 0, 0, 0.6);
 	text-align: center;
 	margin: 0%;
 	width: 100%;
@@ -485,15 +489,16 @@ h5.date {
 }
 
 .grid-item:hover {
-	transform: scale(1.01);
-		-webkit-transition: all .3s ease-in-out;
-  	-o-transition: all .3s ease-in-out;
-  	transition: all .3s ease-in-out;
+	transform: scale(1.008);
+		-webkit-transition: all .2s ease-in-out;
+  	-o-transition: all .2s ease-in-out;
+  	transition: all .2s ease-in-out;
 }
 
 .grid-item:hover .project-description {
   opacity: 1;
   cursor: pointer;
+  border-radius: 7px;
 }
 
 

@@ -1220,6 +1220,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/waymo.png" : {
+      "ft" : 32768,
+      "iS" : 146004,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/waymo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/in.png" : {
       "ft" : 32768,
       "iS" : 4830,
