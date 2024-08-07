@@ -220,9 +220,8 @@ main.projects {
     }
 
     #s4g-ipad {
-    	max-width: 90%;
-    	//padding: 15px;
-    	padding-top: 12px;
+    	max-width: 82%;
+    	padding-top: 30px;
     }
 	#fluently-ipad {
 		max-width: 80%;
@@ -572,7 +571,7 @@ and (max-device-width : 680px) {
 	}
 
 	p.sidebar-entry, ul.nav {
-		font-size: 1.3em;
+		font-size: 1.25em;
 		line-height: 1.4em;
 	}
 
@@ -580,7 +579,7 @@ and (max-device-width : 680px) {
 		display: inline-block;
 		font-size: 1.35em;
 		line-height: 1.4em;
-		padding: 0px 20px 30px 12px;
+		padding: 0px 12px 30px 12px;
 	}
 
 	main.welcome {
@@ -610,21 +609,30 @@ and (max-device-width : 680px) {
 	}
 
 	.nav-footer-social-buttons > a {
-		font-size: 1.4em;
+		font-size: 1.2em;
 		margin-left: 0px;
 		margin-right: 20px;
 	}
 
 	#hello {
-		font-size: 2.0em;
+		font-size: 2.2em;
 		margin: 10px 0px 20px;
 		display: inline-block;
 	}
 
+
+ // WRITING MOBILE 
+
+	 main.writing {
+	 	padding-top: 0px;
+	 }
+
+
 	// PROJECTS MOBILE
 
 	main.projects {
-		margin: 0px 0px 60px;
+		margin: 0px 0px 40px;
+		padding-top: 0px; 
 
 		section.project {
 			margin: 30px 0px 0px;
@@ -673,10 +681,16 @@ and (max-device-width : 680px) {
 			max-width: 100%;
 		}
 
+		#s4g-ipad {
+			max-width: 90%;
+			margin: 10px auto 0px;
+			padding: 0px;
+		}
+
 		#top-link {
 			display: block;
-			font-size: 1em;
-			margin: 0px auto 0px;
+			font-size: 1.2em;
+			margin: 20px auto 0px;
 			padding: 10px;
 			font-weight: bold;
 			//text-align: center;
@@ -711,4 +725,64 @@ and (min-device-width : 1580px) {
 }
 
 
+
+// ANIMATE NAVBAR CLOSE ICON
+
+/* Define the shape and color of the hamburger lines */
+.navbar-toggle span {
+    display: block;
+    background-color: $blue;
+    height: 3px;
+    width: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    border-radius: 10px;
+    left: 0;
+    opacity: 1;
+    transition: all 0.35s ease-out;
+    transform-origin: center left;
+}
+
+
+/* top line needs a little padding */
+.navbar-toggle span:nth-child(1) {
+    margin-top: 0.3em;
+}
+
+
+/**
+ * Animate collapse into X.
+ */
+
+/* top line rotates 45 degrees clockwise and moves up and in a bit to close the center of the X in the center of the button */
+.navbar-toggle:not(.collapsed) span:nth-child(1) {
+    transform: translate(15%, -33%) rotate(45deg);
+}
+/* center line goes transparent */
+.navbar-toggle:not(.collapsed) span:nth-child(2) {
+    opacity: 0;
+}
+/* bottom line rotates 45 degrees counter clockwise, in, and down a bit to close the center of the X in the center of the button  */
+.navbar-toggle:not(.collapsed) span:nth-child(3) {
+    transform: translate(15%, 33%) rotate(-45deg) ;
+}
+
+
+/**
+ * Animate collapse open into hamburger menu
+ */
+
+/* top line moves back to initial position and rotates back to 0 degrees */
+.navbar-toggle span:nth-child(1) {
+    transform: translate(0%, 0%) rotate(0deg) ;
+}
+/* middle line goes back to regular color and opacity */
+.navbar-toggle span:nth-child(2) {
+    opacity: 1;
+}
+/* bottom line goes back to initial position and rotates back to 0 degrees */
+.navbar-toggle span:nth-child(3) {
+    transform: translate(0%, 0%) rotate(0deg) ;
+}
 

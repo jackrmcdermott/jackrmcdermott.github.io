@@ -1051,6 +1051,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/projects\/s4g-ipad.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/assets\/images\/projects\/s4g-ipad-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
     "\/assets\/images\/projects\/s4g-product.png" : {
       "ft" : 32768,
       "iS" : 431389,

@@ -146,8 +146,8 @@ main.projects {
     max-width: 130px;
     display: block; }
   main.projects #s4g-ipad {
-    max-width: 90%;
-    padding-top: 12px; }
+    max-width: 82%;
+    padding-top: 30px; }
   main.projects #fluently-ipad {
     max-width: 80%; }
   main.projects .wistia_responsive_wrapper {
@@ -361,13 +361,13 @@ h5.date {
     background: #fcfcfc;
     box-shadow: 2px 0 3px 0 rgba(167, 167, 167, 0.32); }
   p.sidebar-entry, ul.nav {
-    font-size: 1.3em;
+    font-size: 1.25em;
     line-height: 1.4em; }
   p.mobile-welcome {
     display: inline-block;
     font-size: 1.35em;
     line-height: 1.4em;
-    padding: 0px 20px 30px 12px; }
+    padding: 0px 12px 30px 12px; }
   main.welcome {
     padding-bottom: 100px; }
   .sidebar {
@@ -385,15 +385,18 @@ h5.date {
     margin: 0px 0px;
     padding: 10px 8px 10px; }
   .nav-footer-social-buttons > a {
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin-left: 0px;
     margin-right: 20px; }
   #hello {
-    font-size: 2.0em;
+    font-size: 2.2em;
     margin: 10px 0px 20px;
     display: inline-block; }
+  main.writing {
+    padding-top: 0px; }
   main.projects {
-    margin: 0px 0px 60px; }
+    margin: 0px 0px 40px;
+    padding-top: 0px; }
     main.projects section.project {
       margin: 30px 0px 0px;
       display: inline-block; }
@@ -418,10 +421,14 @@ h5.date {
         margin-bottom: 0px; }
     main.projects #fluently-ipad, main.projects img.whiteboard, main.projects .s4g-wistia {
       max-width: 100%; }
+    main.projects #s4g-ipad {
+      max-width: 90%;
+      margin: 10px auto 0px;
+      padding: 0px; }
     main.projects #top-link {
       display: block;
-      font-size: 1em;
-      margin: 0px auto 0px;
+      font-size: 1.2em;
+      margin: 20px auto 0px;
       padding: 10px;
       font-weight: bold; } }
 
@@ -438,6 +445,55 @@ h5.date {
   .sidebar {
     padding-top: 30px;
     padding-right: 0px; } }
+
+/* Define the shape and color of the hamburger lines */
+.navbar-toggle span {
+  display: block;
+  background-color: #3585f0;
+  height: 3px;
+  width: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  border-radius: 10px;
+  left: 0;
+  opacity: 1;
+  transition: all 0.35s ease-out;
+  transform-origin: center left; }
+
+/* top line needs a little padding */
+.navbar-toggle span:nth-child(1) {
+  margin-top: 0.3em; }
+
+/**
+ * Animate collapse into X.
+ */
+/* top line rotates 45 degrees clockwise and moves up and in a bit to close the center of the X in the center of the button */
+.navbar-toggle:not(.collapsed) span:nth-child(1) {
+  transform: translate(15%, -33%) rotate(45deg); }
+
+/* center line goes transparent */
+.navbar-toggle:not(.collapsed) span:nth-child(2) {
+  opacity: 0; }
+
+/* bottom line rotates 45 degrees counter clockwise, in, and down a bit to close the center of the X in the center of the button  */
+.navbar-toggle:not(.collapsed) span:nth-child(3) {
+  transform: translate(15%, 33%) rotate(-45deg); }
+
+/**
+ * Animate collapse open into hamburger menu
+ */
+/* top line moves back to initial position and rotates back to 0 degrees */
+.navbar-toggle span:nth-child(1) {
+  transform: translate(0%, 0%) rotate(0deg); }
+
+/* middle line goes back to regular color and opacity */
+.navbar-toggle span:nth-child(2) {
+  opacity: 1; }
+
+/* bottom line goes back to initial position and rotates back to 0 degrees */
+.navbar-toggle span:nth-child(3) {
+  transform: translate(0%, 0%) rotate(0deg); }
 
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)

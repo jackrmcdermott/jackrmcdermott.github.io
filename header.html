@@ -1,12 +1,11 @@
 
 
   <div class="navbar navbar-default visible-xs">
-    <button type="button" class="navbar-toggle collapsed">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
+  <a class="navbar-toggle collapsed border-0" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+    <span> </span>
+    <span> </span>
+    <span> </span>
+  </a>
    <a href="/" class="navbar-brand">Jack McDermott</a>
   </div>
 
@@ -47,6 +46,8 @@
     </div> 
   </nav>
 
+
+<!-- Add bold to sidebar of active page --> 
 <script>
 $(function(){
   if($('main.projects').length >0 ){
@@ -65,15 +66,14 @@ $(function(){
 </script>
 
 
+<!-- toggle the sidebar and hamburger menu -->
 <script>    
     $('.navbar-toggle').on('click', function(e) {
       $('.sidebar').toggleClass("open"); //you can list several class names 
       e.preventDefault();
+      $('.navbar-toggle').toggleClass('collapsed');
     });
 </script>
-
-
-
 
 
 
