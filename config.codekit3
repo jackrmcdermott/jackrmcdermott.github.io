@@ -991,6 +991,58 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/projects\/elevenlabs-app.jpeg" : {
+      "ft" : 16384,
+      "iS" : 6430,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/projects\/elevenlabs-app.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/projects\/elevenlabs-feature.jpeg" : {
+      "ft" : 16384,
+      "iS" : 239646,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/projects\/elevenlabs-feature.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/projects\/elevenlabs-feature.png" : {
+      "ft" : 32768,
+      "iS" : 303207,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/projects\/elevenlabs-feature.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/projects\/elevenlabs-side.jpeg" : {
+      "ft" : 16384,
+      "iS" : 160585,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/projects\/elevenlabs-side.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/projects\/fluently_icon.png" : {
       "ft" : 32768,
       "iS" : 60128,
