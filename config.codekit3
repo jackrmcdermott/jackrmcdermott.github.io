@@ -341,19 +341,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/images\/chegg-skills.jpeg" : {
-      "ft" : 16384,
-      "iS" : 856891,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/images\/chegg-skills.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/assets\/images\/chegg.jpg" : {
       "ft" : 16384,
       "iS" : 284373,
@@ -1043,6 +1030,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/projects\/elevenlabs-header.jpeg" : {
+      "ft" : 16384,
+      "iS" : 242540,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/projects\/elevenlabs-header.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/projects\/elevenlabs-side.jpeg" : {
       "ft" : 16384,
       "iS" : 160585,
@@ -1260,19 +1260,6 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/s4g.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/assets\/images\/tall-chegg-skills.jpeg" : {
-      "ft" : 16384,
-      "iS" : 1150372,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/images\/tall-chegg-skills.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
