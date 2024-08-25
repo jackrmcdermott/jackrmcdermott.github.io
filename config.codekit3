@@ -354,6 +354,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/elevenlabs-home.jpeg" : {
+      "ft" : 16384,
+      "iS" : 164486,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/elevenlabs-home.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/fluently.jpg" : {
       "ft" : 16384,
       "iS" : 69938,
@@ -1036,6 +1049,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/projects\/elevenlabs-header.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/projects\/elevenlabs-reader-app.jpg" : {
+      "ft" : 16384,
+      "iS" : 54869,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/projects\/elevenlabs-reader-app.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
