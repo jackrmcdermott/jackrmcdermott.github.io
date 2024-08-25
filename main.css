@@ -406,10 +406,12 @@ h5.date {
     margin: 0px 0px 40px;
     padding-top: 0px; }
     main.projects section.project {
-      margin: 30px 0px 0px;
+      margin: 30px 10px 0px;
       display: inline-block; }
-      main.projects section.project#chegg {
+      main.projects section.project#elevenlabs {
         margin-top: 0px; }
+      main.projects section.project#chegg {
+        margin-top: 50px; }
       main.projects section.project#speech4god {
         margin-top: 0px; }
       main.projects section.project#fluently {
@@ -430,7 +432,7 @@ h5.date {
     main.projects #fluently-ipad, main.projects img.whiteboard, main.projects .s4g-wistia {
       max-width: 100%; }
     main.projects #s4g-ipad {
-      max-width: 90%;
+      max-width: 98%;
       margin: 10px auto 0px;
       padding: 0px; }
     main.projects #top-link {
