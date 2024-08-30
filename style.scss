@@ -199,7 +199,7 @@ main.projects {
 		}
 
 		&#fluently {
-			margin-top: 0px;
+			margin-top: 40px;
 			margin-bottom: 0px;
 		}
 
@@ -228,7 +228,7 @@ main.projects {
     	padding-top: 30px;
     }
 	#fluently-ipad {
-		max-width: 80%;
+		max-width: 70%;
 	}
 
 	.wistia_responsive_wrapper {
@@ -283,7 +283,7 @@ main.projects {
 		font-size: 1.05em;
 	    font-weight: 700;
 	    letter-spacing: 0.04em;
-	    margin: 20px 0px;
+	    margin: 10px 0px 25px;
 	    opacity: 0.6;
 	    color: $gray;
 	    text-transform: uppercase;
@@ -456,6 +456,14 @@ h4.title {
 	color: $blue;
 	font-size: 1.4em;
 	line-height: 1.3em;
+}
+
+h5.featured-post {
+	color: $blue;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	opacity: 0.8;
+	font-size: .9em;
 }
 
 span.subtitle {
