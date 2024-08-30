@@ -459,6 +459,10 @@ h5.date {
     padding-top: 30px;
     padding-right: 0px; } }
 
+.player-sm {
+  background-color: none;
+  margin-top: 20px; }
+
 /* Define the shape and color of the hamburger lines */
 .navbar-toggle span {
   display: block;
