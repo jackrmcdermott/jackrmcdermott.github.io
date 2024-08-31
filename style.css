@@ -131,7 +131,7 @@ main.projects {
     main.projects section.project#speech4good {
       margin-top: 60px; }
     main.projects section.project#fluently {
-      margin-top: 40px;
+      margin-top: 60px;
       margin-bottom: 0px; }
   main.projects .flush-col {
     padding: 0px; }
@@ -179,7 +179,7 @@ main.projects {
     font-size: 1.05em;
     font-weight: 700;
     letter-spacing: 0.04em;
-    margin: 20px 0px 30px;
+    margin: 25px 0px 10px;
     opacity: 0.6;
     color: #61748c;
     text-transform: uppercase; }
@@ -188,7 +188,7 @@ main.projects {
     line-height: 1.7em;
     font-family: "Source Sans 3", Helvetica, Arial, sans-serif;
     font-weight: 400;
-    margin: 40px 0px 40px;
+    margin: 35px 0px 35px;
     max-width: 750px; }
   main.projects #top-link {
     display: none; }
@@ -414,12 +414,7 @@ h5.date {
       display: inline-block; }
       main.projects section.project#elevenlabs {
         margin-top: 0px; }
-      main.projects section.project#chegg {
-        margin-top: 50px; }
-      main.projects section.project#speech4god {
-        margin-top: 0px; }
       main.projects section.project#fluently {
-        margin-top: 0px;
         margin-bottom: 30px; }
       main.projects section.project#politics {
         margin-top: 0px; }

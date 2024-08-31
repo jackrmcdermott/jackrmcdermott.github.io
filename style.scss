@@ -199,7 +199,7 @@ main.projects {
 		}
 
 		&#fluently {
-			margin-top: 40px;
+			margin-top: 60px;
 			margin-bottom: 0px;
 		}
 
@@ -283,7 +283,7 @@ main.projects {
 		font-size: 1.05em;
 	    font-weight: 700;
 	    letter-spacing: 0.04em;
-	    margin: 20px 0px 30px;
+	    margin: 25px 0px 10px;
 	    opacity: 0.6;
 	    color: $gray;
 	    text-transform: uppercase;
@@ -294,7 +294,7 @@ main.projects {
 		line-height: 1.7em;
 		font-family: $sans;
 		font-weight: 400;
-		margin: 40px 0px 40px;
+		margin: 35px 0px 35px;
 		max-width: 750px;
 	}
 
@@ -676,15 +676,15 @@ and (max-device-width : 680px) {
 			}
 
 			&#chegg {
-				margin-top: 50px;
+				//margin-top: 50px;
 			}
 
 			&#speech4god {
-				margin-top: 0px;
+				//margin-top: 0px;
 			}
 
 			&#fluently {
-				margin-top: 0px;
+				//margin-top: 0px;
 				margin-bottom: 30px;
 			}
 
