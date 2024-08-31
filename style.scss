@@ -271,7 +271,7 @@ main.projects {
 
 
 	.text {
-		margin: 23px 0px 23px;
+		margin: 40px 0px 40px;
 		padding: 0px;
 
 		&.tight {
@@ -283,7 +283,7 @@ main.projects {
 		font-size: 1.05em;
 	    font-weight: 700;
 	    letter-spacing: 0.04em;
-	    margin: 10px 0px 25px;
+	    margin: 20px 0px 30px;
 	    opacity: 0.6;
 	    color: $gray;
 	    text-transform: uppercase;
@@ -294,7 +294,7 @@ main.projects {
 		line-height: 1.7em;
 		font-family: $sans;
 		font-weight: 400;
-		margin: 23px 0px 23px;
+		margin: 40px 0px 40px;
 		max-width: 750px;
 	}
 
@@ -571,7 +571,7 @@ and (max-device-width : 680px) {
 
 	// MOBILE NAVBAR 
 	.navbar {
-		padding: 10px 0px 0px;
+		padding: 0px 0px 0px;
 	}
 	.navbar-brand {
 		font-size: 2.5em;
@@ -582,7 +582,8 @@ and (max-device-width : 680px) {
 		display: none;
 	}
 	.navbar-toggle {
-		margin-top: 9px;
+		margin-top: 10px;
+		margin-bottom: 0px;
 		z-index: 99;
 	}
 
@@ -783,7 +784,8 @@ and (min-device-width : 1580px) {
     border-radius: 10px;
     left: 0;
     opacity: 1;
-    transition: all 0.4s ease-out;
+    
+    transition: all 0.2s ease-out;
     transform-origin: center left;
 }
 
