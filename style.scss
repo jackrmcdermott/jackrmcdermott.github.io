@@ -1,5 +1,3 @@
-
-
 // Colors 
 
 $blue: #3585f0;
@@ -10,7 +8,6 @@ $bg: #fcfcfc;
 $sans: 'Source Sans 3', Helvetica, Arial, sans-serif;
 $cabin: 'Cabin',  Helvetica, Arial, sans-serif;
 $outfit: 'Outfit', Helvetica, Arial, sans-serif;
-
 
 
 // Global Styles
@@ -77,23 +74,39 @@ figure.filter-light {
 	font-size: 2.2em;
 	margin: 0px 0px 10px;
 	font-variant: small-caps;
+	//font-family: "EB Garamond", serif;
+	font-optical-sizing: auto;
+	font-style: normal;
 }
 
 //Mobile 
 .navbar-brand {
 	font-variant: small-caps;
-	font-size: 3.1em;
+	font-size: 3em;
 	font-weight: 600;
 	color: $blue;
 }
 
 .site-tagline {
 	margin-bottom: 30px;
-	line-height: 1.5em;
+	line-height: 1.4em;
+	font-size: 1.16em;
+
+	b {
+		font-weight: 600;
+	}
+}
+
+#hello {
+	font-size: 1.25em;
+	margin: 30px 0px 10px;
+	display: inline-block;
 }
 
 p.sidebar-entry {
-	margin: 60px 0px;
+	margin: 50px 0px;
+	line-height: 2.2em;
+	font-size: 1.05em;
 }
 
 .timeframe {
@@ -141,12 +154,6 @@ p.sidebar-entry {
 	display: none;
 }
 
-#hello {
-	font-size: 1.6em;
-	margin: 30px 0px 10px;
-	display: inline-block;
-}
-
 
 
 // Projects 
@@ -164,6 +171,11 @@ main.projects {
 
 	section.main {
 		padding: 30px 0px;
+	}
+
+	.row {
+		margin-top: 40px;
+		margin-bottom: 40px;
 	}
 
 	strong {
@@ -187,27 +199,25 @@ main.projects {
 		display: inline-block;
 		
 		&#chegg {
-			margin-top: 100px; 
+			margin-top: 140px; 
 		}
 
 		&#panorama {
-			margin-top: 150px; 
+			margin-top: 140px; 
 		}
 
 		&#speech4good {
-			margin-top: 60px;
+			margin-top: 140px;
 		}
 
 		&#fluently {
-			margin-top: 60px;
-			margin-bottom: 0px;
+			margin-top: 100px;
+			margin-bottom: 80px;
 		}
-
 	}
 
 	.flush-col {
 		padding: 0px;
-
 		img {
 			border-radius: 20px;
 		}
@@ -215,6 +225,16 @@ main.projects {
 
 	.s4g-wistia {
 		max-width: 360px;
+	}
+
+	.youtube-container {
+		display: flex;
+		justify-content: center;
+			
+		iframe {
+			aspect-ratio: 16 / 9;
+			width: 100% !important;
+		}
 	}
 
 	.fluently-icon {
@@ -225,7 +245,7 @@ main.projects {
 
     #s4g-ipad {
     	max-width: 82%;
-    	padding-top: 30px;
+    	padding-top: 35px;
     }
 	#fluently-ipad {
 		max-width: 70%;
@@ -280,10 +300,10 @@ main.projects {
 	}
 
 	h3.section-title {
-		font-size: 1.05em;
+		font-size: 1.1em;
 	    font-weight: 700;
 	    letter-spacing: 0.04em;
-	    margin: 25px 0px 10px;
+	    margin: 25px 0px;
 	    opacity: 0.6;
 	    color: $gray;
 	    text-transform: uppercase;
@@ -373,6 +393,10 @@ and (max-device-width : 680px) {
 		margin: 0px 0px 30px;
 	}
 
+	.youtube {
+		margin: 30px 0px;
+	}
+
 	.featured-image {
 		//display: none;
 	}
@@ -428,7 +452,7 @@ h2.header {
 }
 
 main.writing {
-	margin-bottom: 40px;
+	margin: 10px 0px 60px;
 
 	.featured-image {
 		margin-bottom: 20px;
@@ -567,7 +591,6 @@ h5.date {
 @media only screen 
 and (min-device-width : 120px) 
 and (max-device-width : 680px) {
-	
 
 	// MOBILE NAVBAR 
 	.navbar {
@@ -584,6 +607,7 @@ and (max-device-width : 680px) {
 	.navbar-toggle {
 		margin-top: 10px;
 		margin-bottom: 0px;
+		margin-left: 10px;
 		z-index: 99;
 	}
 
@@ -647,8 +671,8 @@ and (max-device-width : 680px) {
 	}
 
 	#hello {
-		font-size: 2.2em;
-		margin: 10px 0px 20px;
+		font-size:1.8em;
+		margin: 20px 0px 20px;
 		display: inline-block;
 	}
 
@@ -663,7 +687,7 @@ and (max-device-width : 680px) {
 	// PROJECTS MOBILE
 
 	main.projects {
-		margin: 0px 0px 40px;
+		margin: 0px 0px 60px;
 		padding-top: 0px; 
 
 		section.project {
@@ -676,20 +700,20 @@ and (max-device-width : 680px) {
 			}
 
 			&#chegg {
-				//margin-top: 50px;
+				margin-top: 40px;
 			}
 
-			&#speech4god {
-				//margin-top: 0px;
+			&#panorama {
+				margin-top: 60px;
+			}
+
+			&#speech4good {
+				margin-top: 70px;
 			}
 
 			&#fluently {
-				//margin-top: 0px;
-				margin-bottom: 30px;
-			}
-
-			&#politics {
-				margin-top: 0px;
+				margin-top: 30px;
+				margin-bottom: 60px;
 			}
 		}
 
@@ -756,8 +780,8 @@ and (min-device-width : 1580px) {
 	}
 
 	.sidebar {
-		padding-top: 30px;
-		padding-right: 0px;
+		padding-top: 28px;
+		padding-right: 5px;
 	}
 }
 
